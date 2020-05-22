@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="693px" preserveAspectRatio="none" style="width:755px;height:693px;" version="1.1" viewBox="0 0 755 693" width="755px" zoomAndPan="magnify"><defs><filter height="300%" id="fn127zayn5pw3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="117" x="314.5" y="44.2637">Data Migration</text><rect fill="#ADD8E6" height="609.7109" style="stroke: #000000; stroke-width: 1.0;" width="688" x="39" y="56.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="324" y="69.7139">Company Platform</text><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="404.9219" style="stroke: #000000; stroke-width: 1.0;" width="10" x="96" y="167.7891"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="277" y="528.7109"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="30.3516" style="stroke: #000000; stroke-width: 1.0;" width="10" x="433" y="308.8984"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="30.3516" style="stroke: #000000; stroke-width: 1.0;" width="10" x="618" y="231.8438"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="389.9219" style="stroke: #000000; stroke-width: 2.0;" width="720" x="13" y="174.7891"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="61.7031" style="stroke: #000000; stroke-width: 2.0;" width="259" x="33" y="354.25"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="127.7578" style="stroke: #000000; stroke-width: 2.0;" width="327.5" x="23" y="429.9531"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="95.4063" style="stroke: #000000; stroke-width: 2.0;" width="307.5" x="33" y="455.3047"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="101" x2="101" y1="157.7891" y2="581.7109"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="281.5" x2="281.5" y1="157.7891" y2="581.7109"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="438" x2="438" y1="157.7891" y2="581.7109"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="623" x2="623" y1="157.7891" y2="581.7109"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="49.2188" style="stroke: #000000; stroke-width: 1.5;" width="112" x="43" y="103.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="73" y="125.1035">«Script»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="50" y="142.7129">Migration Script</text><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="49.2188" style="stroke: #000000; stroke-width: 1.5;" width="112" x="43" y="580.7109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="73" y="602.2441">«Script»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="50" y="619.8535">Migration Script</text><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="49.2188" style="stroke: #000000; stroke-width: 1.5;" width="93" x="233.5" y="103.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="249" y="125.1035">«Service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="240.5" y="142.7129">Microservice</text><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="49.2188" style="stroke: #000000; stroke-width: 1.5;" width="93" x="233.5" y="580.7109"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="249" y="602.2441">«Service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="240.5" y="619.8535">Microservice</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="402.5" y="137.1035">«NOSQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="363" y="154.7129">Microservice Database</text><path d="M420,86.5703 C420,76.5703 438,76.5703 438,76.5703 C438,76.5703 456,76.5703 456,86.5703 L456,112.5703 C456,122.5703 438,122.5703 438,122.5703 C438,122.5703 420,122.5703 420,112.5703 L420,86.5703 " fill="#FFFFFF" filter="url(#fn127zayn5pw3)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M420,86.5703 C420,96.5703 438,96.5703 438,96.5703 C438,96.5703 456,96.5703 456,86.5703 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="402.5" y="595.2441">«NOSQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="363" y="612.8535">Microservice Database</text><path d="M420,625.9297 C420,615.9297 438,615.9297 438,615.9297 C438,615.9297 456,615.9297 456,625.9297 L456,651.9297 C456,661.9297 438,661.9297 438,661.9297 C438,661.9297 420,661.9297 420,651.9297 L420,625.9297 " fill="#FFFFFF" filter="url(#fn127zayn5pw3)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M420,625.9297 C420,635.9297 438,635.9297 438,635.9297 C438,635.9297 456,635.9297 456,625.9297 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="587.5" y="137.1035">«NOSQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="523" y="154.7129">Legacy Microservice Database</text><path d="M605,86.5703 C605,76.5703 623,76.5703 623,76.5703 C623,76.5703 641,76.5703 641,86.5703 L641,112.5703 C641,122.5703 623,122.5703 623,122.5703 C623,122.5703 605,122.5703 605,112.5703 L605,86.5703 " fill="#FFFFFF" filter="url(#fn127zayn5pw3)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M605,86.5703 C605,96.5703 623,96.5703 623,96.5703 C623,96.5703 641,96.5703 641,86.5703 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="587.5" y="595.2441">«NOSQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="523" y="612.8535">Legacy Microservice Database</text><path d="M605,625.9297 C605,615.9297 623,615.9297 623,615.9297 C623,615.9297 641,615.9297 641,625.9297 L641,651.9297 C641,661.9297 623,661.9297 623,661.9297 C623,661.9297 605,661.9297 605,651.9297 L605,625.9297 " fill="#FFFFFF" filter="url(#fn127zayn5pw3)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M605,625.9297 C605,635.9297 623,635.9297 623,635.9297 C623,635.9297 641,635.9297 641,625.9297 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="404.9219" style="stroke: #000000; stroke-width: 1.0;" width="10" x="96" y="167.7891"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="14" style="stroke: #000000; stroke-width: 1.0;" width="10" x="277" y="528.7109"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="30.3516" style="stroke: #000000; stroke-width: 1.0;" width="10" x="433" y="308.8984"/><rect fill="#FFFFFF" filter="url(#fn127zayn5pw3)" height="30.3516" style="stroke: #000000; stroke-width: 1.0;" width="10" x="618" y="231.8438"/><path d="M13,174.7891 L86,174.7891 L86,182.7891 L76,192.7891 L13,192.7891 L13,174.7891 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="389.9219" style="stroke: #000000; stroke-width: 2.0;" width="720" x="13" y="174.7891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="28" y="189.2842">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="101" y="188.208">[For All Records in View]</text><polygon fill="#000000" points="606,227.8438,616,231.8438,606,235.8438,610,231.8438" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="106" x2="612" y1="231.8438" y2="231.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="113" y="210.6357">Get Source Record Batch</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="164" x="113" y="226.9873">db.view(..., {skip: n, limit: z})</text><polygon fill="#000000" points="117,258.1953,107,262.1953,117,266.1953,113,262.1953" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="111" x2="622" y1="262.1953" y2="262.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="119" x="123" y="257.3389">Source View Rows</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="246" y="257.3389">[0..z]</text><polygon fill="#000000" points="421,304.8984,431,308.8984,421,312.8984,425,308.8984" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="106" x2="427" y1="308.8984" y2="308.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="113" y="287.6904">Get Target Record Batch</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="308" x="113" y="304.042">db.view(..., {start_key: x, limit: y, include_docs: true})</text><polygon fill="#000000" points="117,335.25,107,339.25,117,343.25,113,339.25" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="111" x2="437" y1="339.25" y2="339.25"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="123" y="334.3936">Target View Record</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="253" y="334.3936">[0..z]</text><path d="M33,354.25 L106,354.25 L106,362.25 L96,372.25 L33,372.25 L33,354.25 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="61.7031" style="stroke: #000000; stroke-width: 2.0;" width="259" x="33" y="354.25"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="48" y="368.7451">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="121" y="367.6689">[For Each Target View Record]</text><line style="stroke: #000000; stroke-width: 1.0;" x1="106" x2="148" y1="394.9531" y2="394.9531"/><line style="stroke: #000000; stroke-width: 1.0;" x1="148" x2="148" y1="394.9531" y2="407.9531"/><line style="stroke: #000000; stroke-width: 1.0;" x1="107" x2="148" y1="407.9531" y2="407.9531"/><polygon fill="#000000" points="117,403.9531,107,407.9531,117,411.9531,113,407.9531" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="157" x="113" y="390.0967">targetBatch.push(record.id)</text><path d="M23,429.9531 L96,429.9531 L96,437.9531 L86,447.9531 L23,447.9531 L23,429.9531 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="127.7578" style="stroke: #000000; stroke-width: 2.0;" width="327.5" x="23" y="429.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="38" y="444.4482">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="50" x="111" y="443.3721">[For Each</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="164" y="443.3721">Source View Row</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="4" x="261" y="443.3721">]</text><path d="M33,455.3047 L98,455.3047 L98,463.3047 L88,473.3047 L33,473.3047 L33,455.3047 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="95.4063" style="stroke: #000000; stroke-width: 2.0;" width="307.5" x="33" y="455.3047"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="20" x="48" y="469.7998">opt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="153" x="113" y="468.7236">[Not in Target Record Array]</text><polygon fill="#000000" points="265,524.7109,275,528.7109,265,532.7109,269,528.7109" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="106" x2="271" y1="528.7109" y2="528.7109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="113" y="491.1514">Import Resource</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="133" x="113" y="507.5029">POST /import-resource</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28" x="113" y="523.8545">{ ... }</text><polygon fill="#000000" points="117,538.7109,107,542.7109,117,546.7109,113,542.7109" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="111" x2="281" y1="542.7109" y2="542.7109"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="115" x="628" y="13.3809">Data Migration Example</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="292" x="227" y="680.3105">Company Architecture Team - Fri May 22 16:27:45 EDT 2020</text><!--MD5=[f325d589769a3b2015600a3c7adb3e60]
+@startuml Data Migration Example
+!include include.puml
+
+header Data Migration Example
+title Data Migration
+
+box "Company Platform" #LightBlue
+  participant "Migration Script" as script <<Script>>
+  participant "Microservice" as service <<Service>>
+  database "Microservice Database" as db <<NOSQL>>
+  database "Legacy Microservice Database" as legacyDb <<NOSQL>>
+end box
+
+loop For All Records in View
+activate script
+script -> legacyDb ++: **Get Source Record Batch**\ndb.view(..., {skip: n, limit: z})
+legacyDb - -> script - -: **Source View Rows** [0..z]
+script -> db ++: **Get Target Record Batch**\ndb.view(..., {start_key: x, limit: y, include_docs: true})
+db - -> script - -: **Target View Record** [0..z]
+loop For Each Target View Record
+  script -> script: targetBatch.push(record.id)
+end
+loop For Each **Source View Row**
+  opt Not in Target Record Array
+    script -> service ++: **Import Resource**\nPOST /import-resource\n{ ... }
+    service - -> script - -
+  end
+end
+end
+@enduml
+
+@startuml Data Migration Example
+footer Company Architecture Team - Fri May 22 16:27:45 EDT 2020
+
+
+scale max 2048 width
+
+skinparam actor {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam folder {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam ArrowColor Black
+skinparam BackgroundColor White
+skinparam CloudBackgroundColor white
+skinparam DatabaseBackgroundColor White
+skinparam NodeBackgroundColor white
+
+skinparam class {
+    BackgroundColor LightGrey
+    BorderColor Black
+}
+
+skinparam note {
+  BackgroundColor #FFEFD7
+  BorderColor Black
+}
+
+skinparam boundary {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam participant {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam card {
+  BackgroundColor White
+  BorderColor Black
+}
+
+skinparam queue {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam state {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam storage {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam collections {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam entity {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam SequenceBoxBorderColor Black
+
+skinparam EntityBackgroundColor White
+skinparam EntityBorderColor Black
+
+skinparam activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  DiamondBackgroundColor white
+  DiamondBorderColor black
+  EndColor black
+  StartColor black
+}
+
+skinparam sequence {
+    MessageAlignment left
+
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor White
+}
+
+skinparam usecase {
+	BackgroundColor White
+	BorderColor Black
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+}
+
+skinparam interface {
+    BackgroundColor White
+
+    BorderColor Black
+}
+
+skinparam component {
+    BackgroundColor White
+  
+    BorderColor Black
+}
+
+skinparam rectangle {
+    BackgroundColor White
+	roundCorner 25
+}
+
+header Data Migration Example
+title Data Migration
+
+box "Company Platform" #LightBlue
+  participant "Migration Script" as script <<Script>>
+  participant "Microservice" as service <<Service>>
+  database "Microservice Database" as db <<NOSQL>>
+  database "Legacy Microservice Database" as legacyDb <<NOSQL>>
+end box
+
+loop For All Records in View
+activate script
+script -> legacyDb ++: **Get Source Record Batch**\ndb.view(..., {skip: n, limit: z})
+legacyDb - -> script - -: **Source View Rows** [0..z]
+script -> db ++: **Get Target Record Batch**\ndb.view(..., {start_key: x, limit: y, include_docs: true})
+db - -> script - -: **Target View Record** [0..z]
+loop For Each Target View Record
+  script -> script: targetBatch.push(record.id)
+end
+loop For Each **Source View Row**
+  opt Not in Target Record Array
+    script -> service ++: **Import Resource**\nPOST /import-resource\n{ ... }
+    service - -> script - -
+  end
+end
+end
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 05:35:57 EDT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

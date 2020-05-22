@@ -1,0 +1,368 @@
+--------------------------------------------------------------------------
+@startuml Conceptual Domain Model
+!include include.puml
+
+header Order Solution
+title Conceptual Domain Model
+
+class "Customer" as customer {
+  +contact_info
+  +shipping_info
+}
+class "Order" as order
+class "Order Item" as orderitem
+class "Discount" as discount
+class "Payment" as payment
+class "Fraud Check" as fraud
+class "Shipping Tracking" as shipping
+
+customer "[1]" <--> "[0..*]" order
+order "[1]" *-- "[1..*]" orderitem
+order "[1]" *-- "[1]" payment
+order "[1]" *-- "[1]" fraud
+order "[1]" *-- "[0..1]" discount
+order "[1]" *-- "[1]" shipping
+@enduml
+
+@startuml Use Case Diagram - Park Entry
+!include include.puml
+left to right direction
+
+header Order Solution
+title Order Use Cases
+
+:Customer: as customer <<Human>>
+:Employee: as emp <<Human>>
+
+(Receive\nOrder) as receive
+(Place\nOrder) as place
+(Select\nProducts) as select
+(Select\nQuantity) as quantity
+(Enter\nPayment Info) as payment
+(Enter\nShipping Info) as shipping
+(Enter\nDiscount) as discount
+(Receive\nConfirmation) as confirmation
+(Create\nAccount) as account
+(Fulfill\nOrder) as fulfill
+
+customer --> receive
+customer --> place
+place -.> select: << includes >>
+select -.> quantity: << includes >>
+place -.> payment: << includes >>
+place -.> shipping: << includes >>
+place <.- discount: << extends >>
+place -.> confirmation: << includes >>
+place -.> fulfill: << includes >>
+place <.- account: << extend >>
+
+emp --> fulfill
+
+@enduml
+--------------------------------------------------------------------------
+@startuml Deployment Diagram
+!include include.puml
+
+title Deployment Diagram
+
+rectangle "Physical Location 1" {
+  node "Client Nodes" as p1_acp
+  interface "Load Balancer" as p1_vip
+  note left of p1_acp: ~ >200 client nodes
+  package "Datacenter 1" {
+    interface "Application Load Balancer" as p1d1_vip
+    node "Application Server(s)" as p1d1_app1
+    node "Database Cluster" as p1d1_db_host {
+      database "Cluster Node(s)" as p1d1_db
+    }
+    p1d1_vip -- p1d1_app1
+    p1d1_app1 -- p1d1_db
+  }
+  note bottom of p1d1_db: dotted lines between database clusters\nrepresent master-master replication
+  package "Datacenter 2" {
+    interface "Application Load Balancer" as p1d2_vip
+    node "Application Server(s)" as p1d2_app1
+    node "Database Cluster" as p1d2_db_host {
+      database "Cluster Node(s)" as p1d2_db
+    }
+    p1d2_vip -- p1d2_app1
+    p1d2_app1 -- p1d2_db
+  }
+  p1_acp --( p1_vip
+  p1_vip --( p1d1_vip
+  p1_vip --( p1d2_vip
+}
+rectangle "Physical Location 2" {
+  node "Client Nodes" as p2_acp
+  interface "Load Balancer" as p2_vip
+  note left of p2_acp: ~ >200 client nodes
+  package "Datacenter 3" {
+    interface "Application Load Balancer" as p2d1_vip
+    node "Application Server(s)" as p2d1_app1
+    node "Database Cluster" as p2d1_db_host {
+      database "Cluster Node(s)" as p2d1_db
+    }
+    p2d1_vip -- p2d1_app1
+    p2d1_app1 -- p2d1_db
+  }
+  package "Datacenter 4" {
+    interface "Application Load Balancer" as p2d2_vip
+    node "Application Server(s)" as p2d2_app1
+    node "Database Cluster" as p2d2_db_host {
+      database "Cluster Node(s)" as p2d2_db
+    }
+    p2d2_vip -- p2d2_app1
+    p2d2_app1 -- p2d2_db
+  }
+  p2_acp --( p2_vip
+  p2_vip --( p2d1_vip
+  p2_vip --( p2d2_vip
+}
+p1d1_db . p1d2_db
+p1d1_db . p2d1_db
+p1d1_db . p2d2_db
+p1d2_db . p2d1_db
+p1d2_db . p2d2_db
+p2d1_db . p2d2_db
+@enduml
+--------------------------------------------------------------------------
+@startuml GET /resource
+!include include.puml
+
+header CRUD Examples
+title GET /resource
+
+participant "Client App" as client <<UI>>
+box "Company Platform" #LightBlue
+  participant "Microservice" as service <<Service>>
+  database "Document Database" as db <<NOSQL>>
+end box
+
+client -> service: **Search Resource Instances**\nGET /resource?...
+activate service
+break Request Validation Failed
+  service --> client: **Error**\n400 - Bad Request
+end
+service -> db: **Query DB**\n/{database-name}/_find\n{ selector, limit, skip, ... }
+activate db
+db -> service: **Document** [0..*]
+deactivate db
+alt Documents Not Found
+    service --> client : 200 OK\n**Resource** [0]
+else Service Unavailable
+    service --> client: 503 Service Unavailable\n**Error** 
+else Documents Found
+    service --> client : 200 OK\n**Resource** [1..*]
+    deactivate service
+end
+@enduml
+--------------------------------------------------------------------------
+@startuml POST /resource
+!include include.puml
+
+header CRUD Examples
+title POST /resource
+
+participant "Client App" as client <<UI>>
+box "Company Platform" #LightBlue
+  participant "Microservice" as service <<Service>>
+  database "Document Database" as db <<NOSQL>>
+end box
+
+client -> service: **Create Resource Instance**\nPOST /resource
+activate service
+break Request Validation Failed
+  service --> client: **Error**\n400 - Bad Request
+end
+service -> db: **Query DB**\nPOST .../{database-name}/_find
+activate db
+db --> service: **Document** [0..1]
+deactivate db
+break Unique Key Constraint
+  service --> client: **Error**\n409 - Conflict
+end
+service -> service: **Generate Resource Id**
+service -> db: **Create Resource Instance**\nPOST /{database-name}/{document-id}\n { ... }
+activate db
+db --> service
+deactivate db
+alt Service Error
+    service --> client : 503 Service Error\n**Error** 
+else Id Already Exists
+    service -> service: Generate new ID
+    service -> db : **Create Resource Instance**\nPOST /{database-name}/{document-id}\n { ... }
+    db --> service
+    service --> client : **Success**\n201 Created
+else OK
+    deactivate db
+    service --> client : **Success**\n201 Created
+    deactivate service
+end
+
+@enduml
+--------------------------------------------------------------------------
+@startuml PUT/PATCH /resource/{resource-id}
+!include include.puml
+
+header CRUD Examples
+title PUT/PATCH /resource/{resource-id}
+
+participant "Client App" as client <<UI>>
+box "Company Platform" #LightBlue
+  participant "Microservice" as service <<Service>>
+  database "Document Database" as db <<NOSQL>>
+end box
+
+client -> service: **Update Resource Instance**\nPUT/PATCH /resource/{resource-id}\n{ ... }
+activate service
+break Request Validation Failed
+  service --> client: **Error**\n400 - Bad Request
+else Etag Missing
+  service --> client: **Error**\n428 - Precondition Required
+end
+service -> db: **Retrieve Document**\nGET /{database-name}/{id}
+activate db
+db --> service: **Headers** [0..1]
+deactivate db
+break Etag Doesn't Match
+  service --> client: **Error**\n412 - Precondition Failed
+else Not Found
+  service --> client: **Error**\n404 - Not Found
+end
+service -> db: **Update Resource**\nPUT /{database-name}/{id}
+activate db
+db --> service
+deactivate db
+break Document Conflict
+    service -> db: **Resolve Conflict**
+    activate db
+    db --> service
+    deactivate db
+    service --> client : **Error**\n409 - Document Conflict
+end
+deactivate db
+service --> client : **Success**\n204 - No Content
+deactivate service
+@enduml
+--------------------------------------------------------------------------
+@startuml DELETE /resource/{resource-id}
+!include include.puml
+
+header CRUD Examples
+title DELETE /resource/{resource-id}
+
+participant "Client App" as client <<UI>>
+box "Company Platform" #LightBlue
+  participant "Microservice" as service <<Service>>
+  database "Document Database" as db <<Database>>
+end box
+
+client -> service: **Delete Resource Instance**\nDELETE /resource/{resource-id}
+activate service
+break Request Validation Failed
+  service --> client: **Error**\n400 - Bad Request
+else Etag Missing
+  service --> client: **Error**\n428 - Precondition Required
+end
+service -> db: **Check Version**\nHEAD /{database-name}/{id}
+activate db
+db --> service
+deactivate db
+break Etag Doesn't Match
+  service --> client: **Error**\n412 - Precondition Failed
+else Not Found
+  service --> client: **Error**\n404 - Not Found
+end
+  service -> db: **Delete Resource**\nDELETE /{database}/{id}
+  activate db
+  db --> service
+  deactivate db
+break Document Conflict
+    service --> client : **Error**\n409 - Document Conflict
+end
+service --> client : **Success**\n204 - No Content
+deactivate service
+@enduml
+--------------------------------------------------------------------------
+@startuml Data Migration Example
+!include include.puml
+
+header Data Migration Example
+title Data Migration
+
+box "Company Platform" #LightBlue
+  participant "Migration Script" as script <<Script>>
+  participant "Microservice" as service <<Service>>
+  database "Microservice Database" as db <<NOSQL>>
+  database "Legacy Microservice Database" as legacyDb <<NOSQL>>
+end box
+
+loop For All Records in View
+activate script
+script -> legacyDb ++: **Get Source Record Batch**\ndb.view(..., {skip: n, limit: z})
+legacyDb --> script --: **Source View Rows** [0..z]
+script -> db ++: **Get Target Record Batch**\ndb.view(..., {start_key: x, limit: y, include_docs: true})
+db --> script --: **Target View Record** [0..z]
+loop For Each Target View Record
+  script -> script: targetBatch.push(record.id)
+end
+loop For Each **Source View Row**
+  opt Not in Target Record Array
+    script -> service ++: **Import Resource**\nPOST /import-resource\n{ ... }
+    service --> script --
+  end
+end
+end
+@enduml
+--------------------------------------------------------------------------
+@startuml Message Processing Activity Diagram
+!include include.puml
+
+header Activity Diagram Example
+title Message Activity Diagram
+
+start
+:Deliver Message to Processor;
+if (Message Processed?) then (Yes)
+  end
+else (No)
+  if(Retries >= Max Retries) then (Yes)
+    :Send to Dead Letter Queue;
+    end
+  else (Yes)
+    :Increment Retry Count;
+    :Requeue;
+    end
+  endif
+endif
+@enduml
+--------------------------------------------------------------------------
+@startuml New Resource Processor
+!include include.puml
+
+header Resource Processors
+title New Resource Processor
+
+queue "RabbitMQ" as queue <<Queue>>
+box "Company Platform" #LightBlue
+  participant "New Resource Processor" as processor <<Processor>>
+  participant "Resource Microservice" as service <<Service>>
+end box
+
+queue -\ processor: Deliver Message
+activate processor
+processor -> service ++: **Import Resource**\nPOST /import-resource
+service --> processor --: **Import Result** [0..1]
+alt Partial Import
+  processor -/ queue: Nack, requeue=true
+else Already Exists
+  processor -/ queue: Nack, requeue=false
+else Not Found
+  processor -/ queue: Nack, requeue=false
+else Service Error
+  processor -/ queue: Nack, requeue=true
+else  Imported Successfully
+  processor -/ queue: Ack Message
+  deactivate processor
+end
+@enduml

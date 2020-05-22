@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="774px" preserveAspectRatio="none" style="width:1177px;height:774px;" version="1.1" viewBox="0 0 1177 774" width="1177px" zoomAndPan="magnify"><defs><filter height="300%" id="f14qdfxnvx66o1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="167" x="516.5" y="18.6855">Deployment Diagram</text><!--MD5=[e6f53f38a513c51377405b51b13cd192]
+cluster Physical Location 1--><rect fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" height="678" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="560" x="22" y="46.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="235.5" y="63.1738">Physical Location 1</text><!--MD5=[433a4e1e787bf7e0a6a5d1a15ef83081]
+cluster Datacenter 1--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="46,274.6406,141,274.6406,148,298.25,290,298.25,290,625.6406,46,625.6406,46,274.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="46" x2="148" y1="298.25" y2="298.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="50" y="291.1738">Datacenter 1</text><!--MD5=[fa0819030cbbd3adbe7465974f2c5c29]
+cluster p1d1_db_host--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="70,507.6406,80,497.6406,266,497.6406,266,591.6406,256,601.6406,70,601.6406,70,507.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="256" x2="265" y1="507.6406" y2="498.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="70" x2="256" y1="507.6406" y2="507.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="256" x2="256" y1="507.6406" y2="601.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="104" y="525.1738">Database Cluster</text><!--MD5=[f184c87ac8d529142d58e6a4f6fd3f7c]
+cluster Datacenter 2--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="314,274.6406,409,274.6406,416,298.25,558,298.25,558,625.6406,314,625.6406,314,274.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="314" x2="416" y1="298.25" y2="298.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="318" y="291.1738">Datacenter 2</text><!--MD5=[c5109d02197d53f7c9a3cc65b71fdb26]
+cluster p1d2_db_host--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="338,507.6406,348,497.6406,534,497.6406,534,591.6406,524,601.6406,338,601.6406,338,507.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="524" x2="533" y1="507.6406" y2="498.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="338" x2="524" y1="507.6406" y2="507.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="524" x2="524" y1="507.6406" y2="601.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="372" y="525.1738">Database Cluster</text><!--MD5=[484dc3c6236ea4363dea9af31c45687a]
+cluster Physical Location 2--><rect fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" height="603" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="560" x="606" y="46.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="819.5" y="63.1738">Physical Location 2</text><!--MD5=[640798799f8e7d22d8cdd4e3d9e00a63]
+cluster Datacenter 3--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="630,274.6406,725,274.6406,732,298.25,874,298.25,874,625.6406,630,625.6406,630,274.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="630" x2="732" y1="298.25" y2="298.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="634" y="291.1738">Datacenter 3</text><!--MD5=[1adf34bd8240b5b749a74246059875e3]
+cluster p2d1_db_host--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="654,507.6406,664,497.6406,850,497.6406,850,591.6406,840,601.6406,654,601.6406,654,507.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="840" x2="849" y1="507.6406" y2="498.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="654" x2="840" y1="507.6406" y2="507.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="840" x2="840" y1="507.6406" y2="601.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="688" y="525.1738">Database Cluster</text><!--MD5=[5c83f92e570266fb8c789401fe8ee328]
+cluster Datacenter 4--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="898,274.6406,993,274.6406,1000,298.25,1142,298.25,1142,625.6406,898,625.6406,898,274.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="898" x2="1000" y1="298.25" y2="298.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="902" y="291.1738">Datacenter 4</text><!--MD5=[2be84e06e5f5111d3db672c013f61d27]
+cluster p2d2_db_host--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="922,507.6406,932,497.6406,1118,497.6406,1118,591.6406,1108,601.6406,922,601.6406,922,507.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1108" x2="1117" y1="507.6406" y2="498.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="922" x2="1108" y1="507.6406" y2="507.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1108" x2="1108" y1="507.6406" y2="601.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="956" y="525.1738">Database Cluster</text><!--MD5=[ea518c7aab3e9e9240f33012a9397495]
+entity p1_acp--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="289,92.6406,299,82.6406,409,82.6406,409,120.25,399,130.25,289,130.25,289,92.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="399" x2="408" y1="92.6406" y2="83.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="289" x2="399" y1="92.6406" y2="92.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="399" x2="399" y1="92.6406" y2="130.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="304" y="117.1738">Client Nodes</text><!--MD5=[367b1a4193eacdbda8e59ea00206d2a3]
+entity p1_vip--><ellipse cx="349" cy="220.6406" fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" rx="8" ry="8" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="92" x="303" y="252.1738">Load Balancer</text><path d="M118,93.6406 L118,119.9922 A0,0 0 0 0 118,119.9922 L254,119.9922 A0,0 0 0 0 254,119.9922 L254,111.6406 L288.964,106.6406 L254,103.6406 L254,103.6406 L244,93.6406 L118,93.6406 A0,0 0 0 0 118,93.6406 " fill="#FFEFD7" filter="url(#f14qdfxnvx66o1)" style="stroke: #000000; stroke-width: 1.0;"/><path d="M244,93.6406 L244,103.6406 L254,103.6406 L244,93.6406 " fill="#FFEFD7" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="115" x="124" y="112.1357">~ &gt;200 client nodes</text><path d="M66.5,665.6406 L66.5,708.3438 A0,0 0 0 0 66.5,708.3438 L313.5,708.3438 A0,0 0 0 0 313.5,708.3438 L313.5,675.6406 L303.5,665.6406 L194,665.6406 L190,585.7006 L186,665.6406 L66.5,665.6406 A0,0 0 0 0 66.5,665.6406 " fill="#FFEFD7" filter="url(#f14qdfxnvx66o1)" style="stroke: #000000; stroke-width: 1.0;"/><path d="M303.5,665.6406 L303.5,675.6406 L313.5,675.6406 L303.5,665.6406 " fill="#FFEFD7" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="226" x="72.5" y="684.1357">dotted lines between database clusters</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="205" x="72.5" y="700.4873">represent master-master replication</text><!--MD5=[12065b94e190d09542b48ff4e0443de5]
+entity p1d1_vip--><ellipse cx="184" cy="340.6406" fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" rx="8" ry="8" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="101.5" y="372.1738">Application Load Balancer</text><!--MD5=[4218ecc1a35dc1576039e394104b17f6]
+entity p1d1_app1--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="100,440.6406,110,430.6406,272,430.6406,272,468.25,262,478.25,100,478.25,100,440.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="262" x2="271" y1="440.6406" y2="431.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="100" x2="262" y1="440.6406" y2="440.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="262" x2="262" y1="440.6406" y2="478.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="115" y="465.1738">Application Server(s)</text><!--MD5=[d2930461cd23117869c1ce193d93f530]
+entity p1d1_db--><path d="M130.5,548.6406 C130.5,538.6406 190,538.6406 190,538.6406 C190,538.6406 249.5,538.6406 249.5,548.6406 L249.5,575.25 C249.5,585.25 190,585.25 190,585.25 C190,585.25 130.5,585.25 130.5,575.25 L130.5,548.6406 " fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M130.5,548.6406 C130.5,558.6406 190,558.6406 190,558.6406 C190,558.6406 249.5,558.6406 249.5,548.6406 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="140.5" y="577.1738">Cluster Node(s)</text><!--MD5=[19625828954e66569776dadfb19573c3]
+entity p1d2_vip--><ellipse cx="429" cy="340.6406" fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" rx="8" ry="8" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="346.5" y="372.1738">Application Load Balancer</text><!--MD5=[44375607728587206251fd3fd2376a07]
+entity p1d2_app1--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="348,440.6406,358,430.6406,520,430.6406,520,468.25,510,478.25,348,478.25,348,440.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="510" x2="519" y1="440.6406" y2="431.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="348" x2="510" y1="440.6406" y2="440.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="510" x2="510" y1="440.6406" y2="478.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="363" y="465.1738">Application Server(s)</text><!--MD5=[1960c2fbc9394baa9a5e93442575e94c]
+entity p1d2_db--><path d="M393.5,548.6406 C393.5,538.6406 453,538.6406 453,538.6406 C453,538.6406 512.5,538.6406 512.5,548.6406 L512.5,575.25 C512.5,585.25 453,585.25 453,585.25 C453,585.25 393.5,585.25 393.5,575.25 L393.5,548.6406 " fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M393.5,548.6406 C393.5,558.6406 453,558.6406 453,558.6406 C453,558.6406 512.5,558.6406 512.5,548.6406 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="403.5" y="577.1738">Cluster Node(s)</text><!--MD5=[74c5d696ec2658605ca438b66520b7ca]
+entity p2_acp--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="868,92.6406,878,82.6406,988,82.6406,988,120.25,978,130.25,868,130.25,868,92.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="978" x2="987" y1="92.6406" y2="83.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="868" x2="978" y1="92.6406" y2="92.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="978" x2="978" y1="92.6406" y2="130.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="883" y="117.1738">Client Nodes</text><!--MD5=[24a4c9b29933dad98692f71a72abd761]
+entity p2_vip--><ellipse cx="928" cy="220.6406" fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" rx="8" ry="8" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="92" x="882" y="252.1738">Load Balancer</text><path d="M697,93.6406 L697,119.9922 A0,0 0 0 0 697,119.9922 L833,119.9922 A0,0 0 0 0 833,119.9922 L833,111.6406 L867.964,106.6406 L833,103.6406 L833,103.6406 L823,93.6406 L697,93.6406 A0,0 0 0 0 697,93.6406 " fill="#FFEFD7" filter="url(#f14qdfxnvx66o1)" style="stroke: #000000; stroke-width: 1.0;"/><path d="M823,93.6406 L823,103.6406 L833,103.6406 L823,93.6406 " fill="#FFEFD7" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="115" x="703" y="112.1357">~ &gt;200 client nodes</text><!--MD5=[f4c47cabe255dd2b456ae5f22246125f]
+entity p2d1_vip--><ellipse cx="752" cy="340.6406" fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" rx="8" ry="8" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="669.5" y="372.1738">Application Load Balancer</text><!--MD5=[205c31f91e795eeefe0dc55f6ed1f9a3]
+entity p2d1_app1--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="656,440.6406,666,430.6406,828,430.6406,828,468.25,818,478.25,656,478.25,656,440.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="818" x2="827" y1="440.6406" y2="431.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="656" x2="818" y1="440.6406" y2="440.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="818" x2="818" y1="440.6406" y2="478.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="671" y="465.1738">Application Server(s)</text><!--MD5=[bd88bcc8ddb0f82c8335527f8984d1c1]
+entity p2d1_db--><path d="M671.5,548.6406 C671.5,538.6406 731,538.6406 731,538.6406 C731,538.6406 790.5,538.6406 790.5,548.6406 L790.5,575.25 C790.5,585.25 731,585.25 731,585.25 C731,585.25 671.5,585.25 671.5,575.25 L671.5,548.6406 " fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M671.5,548.6406 C671.5,558.6406 731,558.6406 731,558.6406 C731,558.6406 790.5,558.6406 790.5,548.6406 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="681.5" y="577.1738">Cluster Node(s)</text><!--MD5=[0f3248b2bfc5e8bd50da4a66b000cbcd]
+entity p2d2_vip--><ellipse cx="1004" cy="340.6406" fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" rx="8" ry="8" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="921.5" y="372.1738">Application Load Balancer</text><!--MD5=[9e2a1d67411439426da3bfc098ba452b]
+entity p2d2_app1--><polygon fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" points="916,440.6406,926,430.6406,1088,430.6406,1088,468.25,1078,478.25,916,478.25,916,440.6406" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1078" x2="1087" y1="440.6406" y2="431.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="916" x2="1078" y1="440.6406" y2="440.6406"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1078" x2="1078" y1="440.6406" y2="478.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="931" y="465.1738">Application Server(s)</text><!--MD5=[8e8e35cd7594674ed76f5e7879f74c81]
+entity p2d2_db--><path d="M938.5,548.6406 C938.5,538.6406 998,538.6406 998,538.6406 C998,538.6406 1057.5,538.6406 1057.5,548.6406 L1057.5,575.25 C1057.5,585.25 998,585.25 998,585.25 C998,585.25 938.5,585.25 938.5,575.25 L938.5,548.6406 " fill="#FFFFFF" filter="url(#f14qdfxnvx66o1)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M938.5,548.6406 C938.5,558.6406 998,558.6406 998,558.6406 C998,558.6406 1057.5,558.6406 1057.5,548.6406 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="948.5" y="577.1738">Cluster Node(s)</text><!--MD5=[305ed5da513efeb13368a06971dab92c]
+link p1d1_vip to p1d1_app1--><path d="M184.144,349.6956 C184.441,366.3476 185.133,405.1096 185.583,430.3066 " fill="none" id="p1d1_vip-p1d1_app1" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[3df5ae2de4e2ccf72fd1aacf224a3774]
+link p1d1_app1 to p1d1_db--><path d="M186.878,478.7926 C187.549,496.5046 188.47,520.7976 189.138,538.4046 " fill="none" id="p1d1_app1-p1d1_db" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[2ca342d338326ccbe24fa6149e7468db]
+link p1d2_vip to p1d2_app1--><path d="M429.36,349.6956 C430.103,366.3476 431.833,405.1096 432.958,430.3066 " fill="none" id="p1d2_vip-p1d2_app1" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[9564d4982df29fa6ad2b3661e4ef2768]
+link p1d2_app1 to p1d2_db--><path d="M438.17,478.7926 C441.359,496.5046 445.734,520.7976 448.905,538.4046 " fill="none" id="p1d2_app1-p1d2_db" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[ea889bef444bd705dc2e9730b1cf0490]
+link p1_acp to p1_vip--><path d="M349,130.8466 C349,151.7446 349,182.0506 349,201.2976 " fill="none" id="p1_acp-&gt;p1_vip" style="stroke: #000000; stroke-width: 1.0;"/><path d="M357.4572,208.3554 A9,9 0 0 0 340.5428 208.3554" fill="none" style="stroke: #000000; stroke-width: 1.5;"/><!--MD5=[0e053523131b8a407b2bb49aa273b22e]
+link p1_vip to p1d1_vip--><path d="M339.656,228.3226 C312.997,247.3886 236.258,302.2686 201.491,327.1316 " fill="none" id="p1_vip-&gt;p1d1_vip" style="stroke: #000000; stroke-width: 1.0;"/><path d="M200.6644,338.1202 A9,9 0 0 0 190.8253 324.3619" fill="none" style="stroke: #000000; stroke-width: 1.5;"/><!--MD5=[7b7a09582060c4916be7f62b2434bc23]
+link p1_vip to p1d2_vip--><path d="M354.499,229.7516 C367.515,248.9506 400.422,297.4876 417.82,323.1506 " fill="none" id="p1_vip-&gt;p1d2_vip" style="stroke: #000000; stroke-width: 1.0;"/><path d="M428.735,324.1794 A9,9 0 0 0 414.7358 333.6725" fill="none" style="stroke: #000000; stroke-width: 1.5;"/><!--MD5=[323f86efb6dab9ea9c10cc48913f5e56]
+link p2d1_vip to p2d1_app1--><path d="M751.281,349.6956 C749.794,366.3476 746.333,405.1096 744.083,430.3066 " fill="none" id="p2d1_vip-p2d1_app1" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[ee5fd1159c29d18d9120655631625b4a]
+link p2d1_app1 to p2d1_db--><path d="M739.586,478.7926 C737.739,496.5046 735.206,520.7976 733.371,538.4046 " fill="none" id="p2d1_app1-p2d1_db" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[d7345707f53482913ce91ecee68250bb]
+link p2d2_vip to p2d2_app1--><path d="M1003.856,349.6956 C1003.559,366.3476 1002.867,405.1096 1002.417,430.3066 " fill="none" id="p2d2_vip-p2d2_app1" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[ac92b3860e6e139db20e6844c666d791]
+link p2d2_app1 to p2d2_db--><path d="M1001.122,478.7926 C1000.451,496.5046 999.53,520.7976 998.862,538.4046 " fill="none" id="p2d2_app1-p2d2_db" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[74c358fb72477ecddd0ccac92e26fca9]
+link p2_acp to p2_vip--><path d="M928,130.8466 C928,151.7446 928,182.0506 928,201.2976 " fill="none" id="p2_acp-&gt;p2_vip" style="stroke: #000000; stroke-width: 1.0;"/><path d="M936.4572,208.3554 A9,9 0 0 0 919.5428 208.3554" fill="none" style="stroke: #000000; stroke-width: 1.5;"/><!--MD5=[7c1bdb94ba30ac117d28c78657107029]
+link p2_vip to p2d1_vip--><path d="M918.537,227.9846 C890.354,246.8806 806.643,303.0056 769.773,327.7246 " fill="none" id="p2_vip-&gt;p2d1_vip" style="stroke: #000000; stroke-width: 1.0;"/><path d="M768.3503,338.86 A9,9 0 0 0 758.9311 324.8109" fill="none" style="stroke: #000000; stroke-width: 1.5;"/><!--MD5=[b79330abef6ebf09bcad9963a802b8ff]
+link p2_vip to p2d2_vip--><path d="M933.224,229.7516 C945.535,248.8656 976.577,297.0626 993.161,322.8116 " fill="none" id="p2_vip-&gt;p2d2_vip" style="stroke: #000000; stroke-width: 1.0;"/><path d="M1004.1828,324.3059 A9,9 0 0 0 989.9633 333.4659" fill="none" style="stroke: #000000; stroke-width: 1.5;"/><!--MD5=[bccf8ebb22d4ffa51b641375ef2ff6ee]
+link p1d1_db to p1d2_db--><path d="M249.586,562.1406 C297.526,562.1406 345.466,562.1406 393.406,562.1406 " fill="none" id="p1d1_db-p1d2_db" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[01fb887eb4f96da25b8018c94a85904a]
+link p1d1_db to p2d1_db--><path d="M235.165,538.5106 C275.617,518.9266 337.223,492.9296 394.5,484.1406 C420.199,480.1976 485.801,480.1976 511.5,484.1406 C572.261,493.4636 638.251,519.2136 681.839,538.5966 " fill="none" id="p1d1_db-p2d1_db" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[29701276ab40dff497bed689b96ebeb3]
+link p1d1_db to p2d2_db--><path d="M235.165,538.5106 C275.617,518.9266 337.223,492.9296 394.5,484.1406 C437.881,477.4836 746.119,477.4836 789.5,484.1406 C797.559,485.3776 799.297,486.9706 807,489.6406 C851.404,505.0316 901.009,523.9116 938.536,538.5466 " fill="none" id="p1d1_db-p2d2_db" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[ede5134add031bd9ab7b273ed28cf366]
+link p1d2_db to p2d1_db--><path d="M512.727,562.1406 C565.59,562.1406 618.453,562.1406 671.316,562.1406 " fill="none" id="p1d2_db-p2d1_db" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[2a6b6b43c4329cab0869658754411e50]
+link p1d2_db to p2d2_db--><path d="M502.161,538.5966 C545.749,519.2136 611.739,493.4636 672.5,484.1406 C698.199,480.1976 763.801,480.1976 789.5,484.1406 C847.756,493.0796 910.594,519.0476 951.883,538.5846 " fill="none" id="p1d2_db-p2d2_db" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[cde7a2e12c9b560ed154e1413696c0ac]
+link p2d1_db to p2d2_db--><path d="M790.71,562.1406 C839.968,562.1406 889.227,562.1406 938.485,562.1406 " fill="none" id="p2d1_db-p2d2_db" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="292" x="454" y="761.0215">Company Architecture Team - Fri May 22 16:27:41 EDT 2020</text><!--MD5=[47d44a8f4e12d3576c69449fb9e1fa31]
+@startuml Deployment Diagram
+!include include.puml
+
+title Deployment Diagram
+
+rectangle "Physical Location 1" {
+  node "Client Nodes" as p1_acp
+  interface "Load Balancer" as p1_vip
+  note left of p1_acp: ~ >200 client nodes
+  package "Datacenter 1" {
+    interface "Application Load Balancer" as p1d1_vip
+    node "Application Server(s)" as p1d1_app1
+    node "Database Cluster" as p1d1_db_host {
+      database "Cluster Node(s)" as p1d1_db
+    }
+    p1d1_vip - - p1d1_app1
+    p1d1_app1 - - p1d1_db
+  }
+  note bottom of p1d1_db: dotted lines between database clusters\nrepresent master-master replication
+  package "Datacenter 2" {
+    interface "Application Load Balancer" as p1d2_vip
+    node "Application Server(s)" as p1d2_app1
+    node "Database Cluster" as p1d2_db_host {
+      database "Cluster Node(s)" as p1d2_db
+    }
+    p1d2_vip - - p1d2_app1
+    p1d2_app1 - - p1d2_db
+  }
+  p1_acp - -( p1_vip
+  p1_vip - -( p1d1_vip
+  p1_vip - -( p1d2_vip
+}
+rectangle "Physical Location 2" {
+  node "Client Nodes" as p2_acp
+  interface "Load Balancer" as p2_vip
+  note left of p2_acp: ~ >200 client nodes
+  package "Datacenter 3" {
+    interface "Application Load Balancer" as p2d1_vip
+    node "Application Server(s)" as p2d1_app1
+    node "Database Cluster" as p2d1_db_host {
+      database "Cluster Node(s)" as p2d1_db
+    }
+    p2d1_vip - - p2d1_app1
+    p2d1_app1 - - p2d1_db
+  }
+  package "Datacenter 4" {
+    interface "Application Load Balancer" as p2d2_vip
+    node "Application Server(s)" as p2d2_app1
+    node "Database Cluster" as p2d2_db_host {
+      database "Cluster Node(s)" as p2d2_db
+    }
+    p2d2_vip - - p2d2_app1
+    p2d2_app1 - - p2d2_db
+  }
+  p2_acp - -( p2_vip
+  p2_vip - -( p2d1_vip
+  p2_vip - -( p2d2_vip
+}
+p1d1_db . p1d2_db
+p1d1_db . p2d1_db
+p1d1_db . p2d2_db
+p1d2_db . p2d1_db
+p1d2_db . p2d2_db
+p2d1_db . p2d2_db
+@enduml
+
+@startuml Deployment Diagram
+footer Company Architecture Team - Fri May 22 16:27:41 EDT 2020
+
+
+scale max 2048 width
+
+skinparam actor {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam folder {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam ArrowColor Black
+skinparam BackgroundColor White
+skinparam CloudBackgroundColor white
+skinparam DatabaseBackgroundColor White
+skinparam NodeBackgroundColor white
+
+skinparam class {
+    BackgroundColor LightGrey
+    BorderColor Black
+}
+
+skinparam note {
+  BackgroundColor #FFEFD7
+  BorderColor Black
+}
+
+skinparam boundary {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam participant {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam card {
+  BackgroundColor White
+  BorderColor Black
+}
+
+skinparam queue {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam state {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam storage {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam collections {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam entity {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam SequenceBoxBorderColor Black
+
+skinparam EntityBackgroundColor White
+skinparam EntityBorderColor Black
+
+skinparam activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  DiamondBackgroundColor white
+  DiamondBorderColor black
+  EndColor black
+  StartColor black
+}
+
+skinparam sequence {
+    MessageAlignment left
+
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor White
+}
+
+skinparam usecase {
+	BackgroundColor White
+	BorderColor Black
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+}
+
+skinparam interface {
+    BackgroundColor White
+
+    BorderColor Black
+}
+
+skinparam component {
+    BackgroundColor White
+  
+    BorderColor Black
+}
+
+skinparam rectangle {
+    BackgroundColor White
+	roundCorner 25
+}
+
+title Deployment Diagram
+
+rectangle "Physical Location 1" {
+  node "Client Nodes" as p1_acp
+  interface "Load Balancer" as p1_vip
+  note left of p1_acp: ~ >200 client nodes
+  package "Datacenter 1" {
+    interface "Application Load Balancer" as p1d1_vip
+    node "Application Server(s)" as p1d1_app1
+    node "Database Cluster" as p1d1_db_host {
+      database "Cluster Node(s)" as p1d1_db
+    }
+    p1d1_vip - - p1d1_app1
+    p1d1_app1 - - p1d1_db
+  }
+  note bottom of p1d1_db: dotted lines between database clusters\nrepresent master-master replication
+  package "Datacenter 2" {
+    interface "Application Load Balancer" as p1d2_vip
+    node "Application Server(s)" as p1d2_app1
+    node "Database Cluster" as p1d2_db_host {
+      database "Cluster Node(s)" as p1d2_db
+    }
+    p1d2_vip - - p1d2_app1
+    p1d2_app1 - - p1d2_db
+  }
+  p1_acp - -( p1_vip
+  p1_vip - -( p1d1_vip
+  p1_vip - -( p1d2_vip
+}
+rectangle "Physical Location 2" {
+  node "Client Nodes" as p2_acp
+  interface "Load Balancer" as p2_vip
+  note left of p2_acp: ~ >200 client nodes
+  package "Datacenter 3" {
+    interface "Application Load Balancer" as p2d1_vip
+    node "Application Server(s)" as p2d1_app1
+    node "Database Cluster" as p2d1_db_host {
+      database "Cluster Node(s)" as p2d1_db
+    }
+    p2d1_vip - - p2d1_app1
+    p2d1_app1 - - p2d1_db
+  }
+  package "Datacenter 4" {
+    interface "Application Load Balancer" as p2d2_vip
+    node "Application Server(s)" as p2d2_app1
+    node "Database Cluster" as p2d2_db_host {
+      database "Cluster Node(s)" as p2d2_db
+    }
+    p2d2_vip - - p2d2_app1
+    p2d2_app1 - - p2d2_db
+  }
+  p2_acp - -( p2_vip
+  p2_vip - -( p2d1_vip
+  p2_vip - -( p2d2_vip
+}
+p1d1_db . p1d2_db
+p1d1_db . p2d1_db
+p1d1_db . p2d2_db
+p1d2_db . p2d1_db
+p1d2_db . p2d2_db
+p2d1_db . p2d2_db
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 05:35:57 EDT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

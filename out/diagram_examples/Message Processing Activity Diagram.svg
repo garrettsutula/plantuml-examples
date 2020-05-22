@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="361px" preserveAspectRatio="none" style="width:411px;height:361px;" version="1.1" viewBox="0 0 411 361" width="411px" zoomAndPan="magnify"><defs><filter height="300%" id="f16vyivwm6w4gp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="123" x="276" y="20.3809">Activity Diagram Example</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="206" x="101.5" y="41.2637">Message Activity Diagram</text><ellipse cx="132.625" cy="55.2188" fill="#000000" filter="url(#f16vyivwm6w4gp)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="185" x="40.125" y="85.2188"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="165" x="50.125" y="107.6758">Deliver Message to Processor</text><polygon fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" points="80.125,140.3125,185.125,140.3125,197.125,152.3125,185.125,164.3125,80.125,164.3125,68.125,152.3125,80.125,140.3125" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="80.125" y="156.8135">Message Processed?</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="48.125" y="149.8955">Yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="13" x="197.125" y="149.8955">No</text><ellipse cx="24" cy="184.3125" fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 2.5;" x1="17.8128" x2="30.1872" y1="178.1253" y2="190.4997"/><line style="stroke: #000000; stroke-width: 2.5;" x1="30.1872" x2="17.8128" y1="178.1253" y2="190.4997"/><polygon fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" points="186.75,174.3125,295.75,174.3125,307.75,186.3125,295.75,198.3125,186.75,198.3125,174.75,186.3125,186.75,174.3125" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="186.75" y="190.8135">Retries &gt;= Max Retries</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="154.75" y="183.8955">Yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="20" x="307.75" y="183.8955">Yes</text><rect fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="169" x="69" y="208.3125"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="149" x="79" y="230.7695">Send to Dead Letter Queue</text><ellipse cx="153.5" cy="273.4063" fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 2.5;" x1="147.3128" x2="159.6872" y1="267.2191" y2="279.5934"/><line style="stroke: #000000; stroke-width: 2.5;" x1="159.6872" x2="147.3128" y1="267.2191" y2="279.5934"/><rect fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="142" x="258" y="208.3125"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="122" x="268" y="230.7695">Increment Retry Count</text><rect fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" height="35.0938" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="71" x="293.5" y="263.4063"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="51" x="303.5" y="285.8633">Requeue</text><ellipse cx="329" cy="328.5" fill="#FFFFFF" filter="url(#f16vyivwm6w4gp)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 2.5;" x1="322.8128" x2="335.1872" y1="322.3128" y2="334.6872"/><line style="stroke: #000000; stroke-width: 2.5;" x1="335.1872" x2="322.8128" y1="322.3128" y2="334.6872"/><line style="stroke: #000000; stroke-width: 1.5;" x1="132.625" x2="132.625" y1="65.2188" y2="85.2188"/><polygon fill="#000000" points="128.625,75.2188,132.625,85.2188,136.625,75.2188,132.625,79.2188" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="153.5" x2="153.5" y1="243.4063" y2="263.4063"/><polygon fill="#000000" points="149.5,253.4063,153.5,263.4063,157.5,253.4063,153.5,257.4063" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="329" x2="329" y1="243.4063" y2="263.4063"/><polygon fill="#000000" points="325,253.4063,329,263.4063,333,253.4063,329,257.4063" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="329" x2="329" y1="298.5" y2="318.5"/><polygon fill="#000000" points="325,308.5,329,318.5,333,308.5,329,312.5" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="174.75" x2="153.5" y1="186.3125" y2="186.3125"/><line style="stroke: #000000; stroke-width: 1.5;" x1="153.5" x2="153.5" y1="186.3125" y2="208.3125"/><polygon fill="#000000" points="149.5,198.3125,153.5,208.3125,157.5,198.3125,153.5,202.3125" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="307.75" x2="329" y1="186.3125" y2="186.3125"/><line style="stroke: #000000; stroke-width: 1.5;" x1="329" x2="329" y1="186.3125" y2="208.3125"/><polygon fill="#000000" points="325,198.3125,329,208.3125,333,198.3125,329,202.3125" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="68.125" x2="24" y1="152.3125" y2="152.3125"/><line style="stroke: #000000; stroke-width: 1.5;" x1="24" x2="24" y1="152.3125" y2="174.3125"/><polygon fill="#000000" points="20,164.3125,24,174.3125,28,164.3125,24,168.3125" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="197.125" x2="241.25" y1="152.3125" y2="152.3125"/><line style="stroke: #000000; stroke-width: 1.5;" x1="241.25" x2="241.25" y1="152.3125" y2="174.3125"/><polygon fill="#000000" points="237.25,164.3125,241.25,174.3125,245.25,164.3125,241.25,168.3125" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="132.625" x2="132.625" y1="120.3125" y2="140.3125"/><polygon fill="#000000" points="128.625,130.3125,132.625,140.3125,136.625,130.3125,132.625,134.3125" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="292" x="58.5" y="347.8809">Company Architecture Team - Fri May 22 16:27:45 EDT 2020</text><!--MD5=[ed35415d6546326b63ba9ed02787c2fb]
+@startuml Message Processing Activity Diagram
+!include include.puml
+
+header Activity Diagram Example
+title Message Activity Diagram
+
+start
+:Deliver Message to Processor;
+if (Message Processed?) then (Yes)
+  end
+else (No)
+  if(Retries >= Max Retries) then (Yes)
+    :Send to Dead Letter Queue;
+    end
+  else (Yes)
+    :Increment Retry Count;
+    :Requeue;
+    end
+  endif
+endif
+@enduml
+
+@startuml Message Processing Activity Diagram
+footer Company Architecture Team - Fri May 22 16:27:45 EDT 2020
+
+
+scale max 2048 width
+
+skinparam actor {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam folder {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam ArrowColor Black
+skinparam BackgroundColor White
+skinparam CloudBackgroundColor white
+skinparam DatabaseBackgroundColor White
+skinparam NodeBackgroundColor white
+
+skinparam class {
+    BackgroundColor LightGrey
+    BorderColor Black
+}
+
+skinparam note {
+  BackgroundColor #FFEFD7
+  BorderColor Black
+}
+
+skinparam boundary {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam participant {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam card {
+  BackgroundColor White
+  BorderColor Black
+}
+
+skinparam queue {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam state {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam storage {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam collections {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam entity {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam SequenceBoxBorderColor Black
+
+skinparam EntityBackgroundColor White
+skinparam EntityBorderColor Black
+
+skinparam activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  DiamondBackgroundColor white
+  DiamondBorderColor black
+  EndColor black
+  StartColor black
+}
+
+skinparam sequence {
+    MessageAlignment left
+
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor White
+}
+
+skinparam usecase {
+	BackgroundColor White
+	BorderColor Black
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+}
+
+skinparam interface {
+    BackgroundColor White
+
+    BorderColor Black
+}
+
+skinparam component {
+    BackgroundColor White
+  
+    BorderColor Black
+}
+
+skinparam rectangle {
+    BackgroundColor White
+	roundCorner 25
+}
+
+header Activity Diagram Example
+title Message Activity Diagram
+
+start
+:Deliver Message to Processor;
+if (Message Processed?) then (Yes)
+  end
+else (No)
+  if(Retries >= Max Retries) then (Yes)
+    :Send to Dead Letter Queue;
+    end
+  else (Yes)
+    :Increment Retry Count;
+    :Requeue;
+    end
+  endif
+endif
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 05:35:57 EDT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

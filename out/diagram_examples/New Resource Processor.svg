@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="590px" preserveAspectRatio="none" style="width:490px;height:590px;" version="1.1" viewBox="0 0 490 590" width="490px" zoomAndPan="magnify"><defs><filter height="300%" id="f1w163yhk0vuhp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="204" x="138.5" y="44.2637">New Resource Processor</text><rect fill="#ADD8E6" height="506.6484" style="stroke: #000000; stroke-width: 1.0;" width="357" x="120" y="56.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="118" x="239.5" y="69.7139">Company Platform</text><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="317.5078" style="stroke: #000000; stroke-width: 1.0;" width="10" x="207.5" y="163.1406"/><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="30.3516" style="stroke: #000000; stroke-width: 1.0;" width="10" x="387" y="209.8438"/><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="233.4531" style="stroke: #000000; stroke-width: 2.0;" width="298" x="13" y="255.1953"/><rect fill="#FFFFFF" height="46.1875" style="stroke: none; stroke-width: 1.0;" width="298" x="13" y="303.8984"/><rect fill="#FFFFFF" height="46.1875" style="stroke: none; stroke-width: 1.0;" width="298" x="13" y="350.0859"/><rect fill="#FFFFFF" height="46.1875" style="stroke: none; stroke-width: 1.0;" width="298" x="13" y="396.2734"/><rect fill="#FFFFFF" height="46.1875" style="stroke: none; stroke-width: 1.0;" width="298" x="13" y="442.4609"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="64" x2="64" y1="130.7891" y2="505.6484"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="212" x2="212" y1="130.7891" y2="505.6484"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="392" x2="392" y1="130.7891" y2="505.6484"/><path d="M28,85.5703 L101,85.5703 C106,85.5703 106,108.1797 106,108.1797 C106,108.1797 106,130.7891 101,130.7891 L28,130.7891 C23,130.7891 23,108.1797 23,108.1797 C23,108.1797 23,85.5703 28,85.5703 " fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" style="stroke: #000000; stroke-width: 2.0;"/><path d="M101,85.5703 C96,85.5703 96,108.1797 96,108.1797 C96,130.7891 101,130.7891 101,130.7891 " fill="none" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="30" y="105.1035">«Queue»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="28" y="122.7129">RabbitMQ</text><path d="M28,504.6484 L101,504.6484 C106,504.6484 106,527.2578 106,527.2578 C106,527.2578 106,549.8672 101,549.8672 L28,549.8672 C23,549.8672 23,527.2578 23,527.2578 C23,527.2578 23,504.6484 28,504.6484 " fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" style="stroke: #000000; stroke-width: 2.0;"/><path d="M101,504.6484 C96,504.6484 96,527.2578 96,527.2578 C96,549.8672 101,549.8672 101,549.8672 " fill="none" style="stroke: #000000; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="30" y="524.1816">«Queue»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="63" x="28" y="541.791">RabbitMQ</text><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="49.2188" style="stroke: #000000; stroke-width: 1.5;" width="173" x="124" y="76.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="170.5" y="98.1035">«Processor»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="131" y="115.7129">New Resource Processor</text><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="49.2188" style="stroke: #000000; stroke-width: 1.5;" width="173" x="124" y="504.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="170.5" y="526.1816">«Processor»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="131" y="543.791">New Resource Processor</text><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="49.2188" style="stroke: #000000; stroke-width: 1.5;" width="158" x="311" y="76.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="359" y="98.1035">«Service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="318" y="115.7129">Resource Microservice</text><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="49.2188" style="stroke: #000000; stroke-width: 1.5;" width="158" x="311" y="504.6484"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="359" y="526.1816">«Service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="144" x="318" y="543.791">Resource Microservice</text><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="317.5078" style="stroke: #000000; stroke-width: 1.0;" width="10" x="207.5" y="163.1406"/><rect fill="#FFFFFF" filter="url(#f1w163yhk0vuhp)" height="30.3516" style="stroke: #000000; stroke-width: 1.0;" width="10" x="387" y="209.8438"/><polygon fill="#000000" points="195.5,159.1406,205.5,163.1406,195.5,163.1406" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="64.5" x2="206.5" y1="163.1406" y2="163.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="95" x="71.5" y="158.2842">Deliver Message</text><polygon fill="#000000" points="375,205.8438,385,209.8438,375,213.8438,379,209.8438" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="217.5" x2="381" y1="209.8438" y2="209.8438"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="224.5" y="188.6357">Import Resource</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="133" x="224.5" y="204.9873">POST /import-resource</text><polygon fill="#000000" points="228.5,236.1953,218.5,240.1953,228.5,244.1953,224.5,240.1953" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="222.5" x2="391" y1="240.1953" y2="240.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="234.5" y="235.3389">Import Result</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="322.5" y="235.3389">[0..1]</text><path d="M13,255.1953 L74,255.1953 L74,263.1953 L64,273.1953 L13,273.1953 L13,255.1953 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="233.4531" style="stroke: #000000; stroke-width: 2.0;" width="298" x="13" y="255.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="16" x="28" y="269.6904">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="89" y="268.6143">[Partial Import]</text><polygon fill="#000000" points="75.5,296.8984,65.5,296.8984,75.5,300.8984" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="64.5" x2="206.5" y1="295.8984" y2="295.8984"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="114" x="81.5" y="291.042">Nack, requeue=true</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="311" y1="304.8984" y2="304.8984"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="18" y="316.3174">[Already Exists]</text><polygon fill="#000000" points="75.5,343.0859,65.5,343.0859,75.5,347.0859" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="64.5" x2="206.5" y1="342.0859" y2="342.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="81.5" y="337.2295">Nack, requeue=false</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="311" y1="351.0859" y2="351.0859"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="63" x="18" y="362.5049">[Not Found]</text><polygon fill="#000000" points="75.5,389.2734,65.5,389.2734,75.5,393.2734" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="64.5" x2="206.5" y1="388.2734" y2="388.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="81.5" y="383.417">Nack, requeue=false</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="311" y1="397.2734" y2="397.2734"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="18" y="408.6924">[Service Error]</text><polygon fill="#000000" points="75.5,435.4609,65.5,435.4609,75.5,439.4609" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="64.5" x2="206.5" y1="434.4609" y2="434.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="114" x="81.5" y="429.6045">Nack, requeue=true</text><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="13" x2="311" y1="443.4609" y2="443.4609"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="132" x="18" y="454.8799">[Imported Successfully]</text><polygon fill="#000000" points="75.5,481.6484,65.5,481.6484,75.5,485.6484" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="64.5" x2="211.5" y1="480.6484" y2="480.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="81.5" y="475.792">Ack Message</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="96" x="382" y="13.3809">Resource Processors</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="292" x="94.5" y="577.248">Company Architecture Team - Fri May 22 16:27:47 EDT 2020</text><!--MD5=[7f6aab7690b15216b5bc75cd92496d4f]
+@startuml New Resource Processor
+!include include.puml
+
+header Resource Processors
+title New Resource Processor
+
+queue "RabbitMQ" as queue <<Queue>>
+box "Company Platform" #LightBlue
+  participant "New Resource Processor" as processor <<Processor>>
+  participant "Resource Microservice" as service <<Service>>
+end box
+
+queue -\ processor: Deliver Message
+activate processor
+processor -> service ++: **Import Resource**\nPOST /import-resource
+service - -> processor - -: **Import Result** [0..1]
+alt Partial Import
+  processor -/ queue: Nack, requeue=true
+else Already Exists
+  processor -/ queue: Nack, requeue=false
+else Not Found
+  processor -/ queue: Nack, requeue=false
+else Service Error
+  processor -/ queue: Nack, requeue=true
+else  Imported Successfully
+  processor -/ queue: Ack Message
+  deactivate processor
+end
+@enduml
+
+@startuml New Resource Processor
+footer Company Architecture Team - Fri May 22 16:27:47 EDT 2020
+
+
+scale max 2048 width
+
+skinparam actor {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam folder {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam ArrowColor Black
+skinparam BackgroundColor White
+skinparam CloudBackgroundColor white
+skinparam DatabaseBackgroundColor White
+skinparam NodeBackgroundColor white
+
+skinparam class {
+    BackgroundColor LightGrey
+    BorderColor Black
+}
+
+skinparam note {
+  BackgroundColor #FFEFD7
+  BorderColor Black
+}
+
+skinparam boundary {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam participant {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam card {
+  BackgroundColor White
+  BorderColor Black
+}
+
+skinparam queue {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam state {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam storage {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam collections {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam entity {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam SequenceBoxBorderColor Black
+
+skinparam EntityBackgroundColor White
+skinparam EntityBorderColor Black
+
+skinparam activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  DiamondBackgroundColor white
+  DiamondBorderColor black
+  EndColor black
+  StartColor black
+}
+
+skinparam sequence {
+    MessageAlignment left
+
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor White
+}
+
+skinparam usecase {
+	BackgroundColor White
+	BorderColor Black
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+}
+
+skinparam interface {
+    BackgroundColor White
+
+    BorderColor Black
+}
+
+skinparam component {
+    BackgroundColor White
+  
+    BorderColor Black
+}
+
+skinparam rectangle {
+    BackgroundColor White
+	roundCorner 25
+}
+
+header Resource Processors
+title New Resource Processor
+
+queue "RabbitMQ" as queue <<Queue>>
+box "Company Platform" #LightBlue
+  participant "New Resource Processor" as processor <<Processor>>
+  participant "Resource Microservice" as service <<Service>>
+end box
+
+queue -\ processor: Deliver Message
+activate processor
+processor -> service ++: **Import Resource**\nPOST /import-resource
+service - -> processor - -: **Import Result** [0..1]
+alt Partial Import
+  processor -/ queue: Nack, requeue=true
+else Already Exists
+  processor -/ queue: Nack, requeue=false
+else Not Found
+  processor -/ queue: Nack, requeue=false
+else Service Error
+  processor -/ queue: Nack, requeue=true
+else  Imported Successfully
+  processor -/ queue: Ack Message
+  deactivate processor
+end
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 05:35:57 EDT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

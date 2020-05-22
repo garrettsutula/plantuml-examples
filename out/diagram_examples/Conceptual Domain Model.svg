@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="369px" preserveAspectRatio="none" style="width:662px;height:369px;" version="1.1" viewBox="0 0 662 369" width="662px" zoomAndPan="magnify"><defs><filter height="300%" id="f4nf2iifl3vq1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="69" x="581" y="10.3809">Order Solution</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="211" x="219.5" y="31.2637">Conceptual Domain Model</text><!--MD5=[b3c0514fa69bffb9c22fb6650bde9461]
+class customer--><rect fill="#D3D3D3" filter="url(#f4nf2iifl3vq1)" height="75.6719" id="customer" style="stroke: #000000; stroke-width: 1.5;" width="90" x="243" y="43.2188"/><ellipse cx="259.35" cy="59.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><path d="M262.1156,55.0938 Q262.2719,54.875 262.4594,54.7656 Q262.6469,54.6563 262.8656,54.6563 Q263.2406,54.6563 263.475,54.9141 Q263.7094,55.1719 263.7094,55.7813 L263.7094,57.2344 Q263.7094,57.8438 263.475,58.1094 Q263.2406,58.375 262.8656,58.375 Q262.5219,58.375 262.3188,58.1719 Q262.1156,57.9844 262.0063,57.4688 Q261.9594,57.1094 261.7719,56.9219 Q261.4438,56.5469 260.8344,56.3281 Q260.225,56.1094 259.6,56.1094 Q258.8344,56.1094 258.2016,56.4375 Q257.5688,56.7656 257.0766,57.5156 Q256.5844,58.2656 256.5844,59.2969 L256.5844,60.3906 Q256.5844,61.625 257.475,62.4453 Q258.3656,63.2656 259.9594,63.2656 Q260.8969,63.2656 261.5531,63.0156 Q261.9438,62.8594 262.3656,62.4219 Q262.6313,62.1563 262.7797,62.0781 Q262.9281,62 263.1313,62 Q263.4594,62 263.7172,62.2578 Q263.975,62.5156 263.975,62.8594 Q263.975,63.2031 263.6313,63.6094 Q263.1313,64.1875 262.3344,64.5156 Q261.2563,64.9688 259.9594,64.9688 Q258.4438,64.9688 257.2406,64.3438 Q256.2563,63.8438 255.5688,62.7734 Q254.8813,61.7031 254.8813,60.4219 L254.8813,59.2656 Q254.8813,57.9375 255.4984,56.7891 Q256.1156,55.6406 257.2094,55.0234 Q258.3031,54.4063 259.5375,54.4063 Q260.2719,54.4063 260.9203,54.5703 Q261.5688,54.7344 262.1156,55.0938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="273.65" y="64.1289">Customer</text><line style="stroke: #000000; stroke-width: 1.5;" x1="244" x2="332" y1="75.2188" y2="75.2188"/><ellipse cx="254" cy="86.2188" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="263" y="90.6377">contact_info</text><ellipse cx="254" cy="100.0547" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="64" x="263" y="104.4736">shipping_info</text><line style="stroke: #000000; stroke-width: 1.5;" x1="244" x2="332" y1="110.8906" y2="110.8906"/><!--MD5=[a5d022e75c0065b9d5401ddae886f23d]
+class order--><rect fill="#D3D3D3" filter="url(#f4nf2iifl3vq1)" height="48" id="order" style="stroke: #000000; stroke-width: 1.5;" width="63" x="256.5" y="179.2188"/><ellipse cx="271.5" cy="195.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><path d="M274.2656,191.0938 Q274.4219,190.875 274.6094,190.7656 Q274.7969,190.6563 275.0156,190.6563 Q275.3906,190.6563 275.625,190.9141 Q275.8594,191.1719 275.8594,191.7813 L275.8594,193.2344 Q275.8594,193.8438 275.625,194.1094 Q275.3906,194.375 275.0156,194.375 Q274.6719,194.375 274.4688,194.1719 Q274.2656,193.9844 274.1563,193.4688 Q274.1094,193.1094 273.9219,192.9219 Q273.5938,192.5469 272.9844,192.3281 Q272.375,192.1094 271.75,192.1094 Q270.9844,192.1094 270.3516,192.4375 Q269.7188,192.7656 269.2266,193.5156 Q268.7344,194.2656 268.7344,195.2969 L268.7344,196.3906 Q268.7344,197.625 269.625,198.4453 Q270.5156,199.2656 272.1094,199.2656 Q273.0469,199.2656 273.7031,199.0156 Q274.0938,198.8594 274.5156,198.4219 Q274.7813,198.1563 274.9297,198.0781 Q275.0781,198 275.2813,198 Q275.6094,198 275.8672,198.2578 Q276.125,198.5156 276.125,198.8594 Q276.125,199.2031 275.7813,199.6094 Q275.2813,200.1875 274.4844,200.5156 Q273.4063,200.9688 272.1094,200.9688 Q270.5938,200.9688 269.3906,200.3438 Q268.4063,199.8438 267.7188,198.7734 Q267.0313,197.7031 267.0313,196.4219 L267.0313,195.2656 Q267.0313,193.9375 267.6484,192.7891 Q268.2656,191.6406 269.3594,191.0234 Q270.4531,190.4063 271.6875,190.4063 Q272.4219,190.4063 273.0703,190.5703 Q273.7188,190.7344 274.2656,191.0938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="31" x="285.5" y="200.1289">Order</text><line style="stroke: #000000; stroke-width: 1.5;" x1="257.5" x2="318.5" y1="211.2188" y2="211.2188"/><line style="stroke: #000000; stroke-width: 1.5;" x1="257.5" x2="318.5" y1="219.2188" y2="219.2188"/><!--MD5=[0cb1efb9d4a370cf38380dc85e38aa33]
+class orderitem--><rect fill="#D3D3D3" filter="url(#f4nf2iifl3vq1)" height="48" id="orderitem" style="stroke: #000000; stroke-width: 1.5;" width="90" x="6" y="287.2188"/><ellipse cx="21" cy="303.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><path d="M23.7656,299.0938 Q23.9219,298.875 24.1094,298.7656 Q24.2969,298.6563 24.5156,298.6563 Q24.8906,298.6563 25.125,298.9141 Q25.3594,299.1719 25.3594,299.7813 L25.3594,301.2344 Q25.3594,301.8438 25.125,302.1094 Q24.8906,302.375 24.5156,302.375 Q24.1719,302.375 23.9688,302.1719 Q23.7656,301.9844 23.6563,301.4688 Q23.6094,301.1094 23.4219,300.9219 Q23.0938,300.5469 22.4844,300.3281 Q21.875,300.1094 21.25,300.1094 Q20.4844,300.1094 19.8516,300.4375 Q19.2188,300.7656 18.7266,301.5156 Q18.2344,302.2656 18.2344,303.2969 L18.2344,304.3906 Q18.2344,305.625 19.125,306.4453 Q20.0156,307.2656 21.6094,307.2656 Q22.5469,307.2656 23.2031,307.0156 Q23.5938,306.8594 24.0156,306.4219 Q24.2813,306.1563 24.4297,306.0781 Q24.5781,306 24.7813,306 Q25.1094,306 25.3672,306.2578 Q25.625,306.5156 25.625,306.8594 Q25.625,307.2031 25.2813,307.6094 Q24.7813,308.1875 23.9844,308.5156 Q22.9063,308.9688 21.6094,308.9688 Q20.0938,308.9688 18.8906,308.3438 Q17.9063,307.8438 17.2188,306.7734 Q16.5313,305.7031 16.5313,304.4219 L16.5313,303.2656 Q16.5313,301.9375 17.1484,300.7891 Q17.7656,299.6406 18.8594,299.0234 Q19.9531,298.4063 21.1875,298.4063 Q21.9219,298.4063 22.5703,298.5703 Q23.2188,298.7344 23.7656,299.0938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="35" y="308.1289">Order Item</text><line style="stroke: #000000; stroke-width: 1.5;" x1="7" x2="95" y1="319.2188" y2="319.2188"/><line style="stroke: #000000; stroke-width: 1.5;" x1="7" x2="95" y1="327.2188" y2="327.2188"/><!--MD5=[296d5d24a851cbd64b2ffb645b0a2d01]
+class discount--><rect fill="#D3D3D3" filter="url(#f4nf2iifl3vq1)" height="48" id="discount" style="stroke: #000000; stroke-width: 1.5;" width="81" x="131.5" y="287.2188"/><ellipse cx="146.5" cy="303.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><path d="M149.2656,299.0938 Q149.4219,298.875 149.6094,298.7656 Q149.7969,298.6563 150.0156,298.6563 Q150.3906,298.6563 150.625,298.9141 Q150.8594,299.1719 150.8594,299.7813 L150.8594,301.2344 Q150.8594,301.8438 150.625,302.1094 Q150.3906,302.375 150.0156,302.375 Q149.6719,302.375 149.4688,302.1719 Q149.2656,301.9844 149.1563,301.4688 Q149.1094,301.1094 148.9219,300.9219 Q148.5938,300.5469 147.9844,300.3281 Q147.375,300.1094 146.75,300.1094 Q145.9844,300.1094 145.3516,300.4375 Q144.7188,300.7656 144.2266,301.5156 Q143.7344,302.2656 143.7344,303.2969 L143.7344,304.3906 Q143.7344,305.625 144.625,306.4453 Q145.5156,307.2656 147.1094,307.2656 Q148.0469,307.2656 148.7031,307.0156 Q149.0938,306.8594 149.5156,306.4219 Q149.7813,306.1563 149.9297,306.0781 Q150.0781,306 150.2813,306 Q150.6094,306 150.8672,306.2578 Q151.125,306.5156 151.125,306.8594 Q151.125,307.2031 150.7813,307.6094 Q150.2813,308.1875 149.4844,308.5156 Q148.4063,308.9688 147.1094,308.9688 Q145.5938,308.9688 144.3906,308.3438 Q143.4063,307.8438 142.7188,306.7734 Q142.0313,305.7031 142.0313,304.4219 L142.0313,303.2656 Q142.0313,301.9375 142.6484,300.7891 Q143.2656,299.6406 144.3594,299.0234 Q145.4531,298.4063 146.6875,298.4063 Q147.4219,298.4063 148.0703,298.5703 Q148.7188,298.7344 149.2656,299.0938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="160.5" y="308.1289">Discount</text><line style="stroke: #000000; stroke-width: 1.5;" x1="132.5" x2="211.5" y1="319.2188" y2="319.2188"/><line style="stroke: #000000; stroke-width: 1.5;" x1="132.5" x2="211.5" y1="327.2188" y2="327.2188"/><!--MD5=[813a40a839adcce9e0053fbac54d9150]
+class payment--><rect fill="#D3D3D3" filter="url(#f4nf2iifl3vq1)" height="48" id="payment" style="stroke: #000000; stroke-width: 1.5;" width="80" x="248" y="287.2188"/><ellipse cx="263" cy="303.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><path d="M265.7656,299.0938 Q265.9219,298.875 266.1094,298.7656 Q266.2969,298.6563 266.5156,298.6563 Q266.8906,298.6563 267.125,298.9141 Q267.3594,299.1719 267.3594,299.7813 L267.3594,301.2344 Q267.3594,301.8438 267.125,302.1094 Q266.8906,302.375 266.5156,302.375 Q266.1719,302.375 265.9688,302.1719 Q265.7656,301.9844 265.6563,301.4688 Q265.6094,301.1094 265.4219,300.9219 Q265.0938,300.5469 264.4844,300.3281 Q263.875,300.1094 263.25,300.1094 Q262.4844,300.1094 261.8516,300.4375 Q261.2188,300.7656 260.7266,301.5156 Q260.2344,302.2656 260.2344,303.2969 L260.2344,304.3906 Q260.2344,305.625 261.125,306.4453 Q262.0156,307.2656 263.6094,307.2656 Q264.5469,307.2656 265.2031,307.0156 Q265.5938,306.8594 266.0156,306.4219 Q266.2813,306.1563 266.4297,306.0781 Q266.5781,306 266.7813,306 Q267.1094,306 267.3672,306.2578 Q267.625,306.5156 267.625,306.8594 Q267.625,307.2031 267.2813,307.6094 Q266.7813,308.1875 265.9844,308.5156 Q264.9063,308.9688 263.6094,308.9688 Q262.0938,308.9688 260.8906,308.3438 Q259.9063,307.8438 259.2188,306.7734 Q258.5313,305.7031 258.5313,304.4219 L258.5313,303.2656 Q258.5313,301.9375 259.1484,300.7891 Q259.7656,299.6406 260.8594,299.0234 Q261.9531,298.4063 263.1875,298.4063 Q263.9219,298.4063 264.5703,298.5703 Q265.2188,298.7344 265.7656,299.0938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="277" y="308.1289">Payment</text><line style="stroke: #000000; stroke-width: 1.5;" x1="249" x2="327" y1="319.2188" y2="319.2188"/><line style="stroke: #000000; stroke-width: 1.5;" x1="249" x2="327" y1="327.2188" y2="327.2188"/><!--MD5=[ddd56b826c68ec649a71c9af53716174]
+class fraud--><rect fill="#D3D3D3" filter="url(#f4nf2iifl3vq1)" height="48" id="fraud" style="stroke: #000000; stroke-width: 1.5;" width="102" x="363" y="287.2188"/><ellipse cx="378" cy="303.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><path d="M380.7656,299.0938 Q380.9219,298.875 381.1094,298.7656 Q381.2969,298.6563 381.5156,298.6563 Q381.8906,298.6563 382.125,298.9141 Q382.3594,299.1719 382.3594,299.7813 L382.3594,301.2344 Q382.3594,301.8438 382.125,302.1094 Q381.8906,302.375 381.5156,302.375 Q381.1719,302.375 380.9688,302.1719 Q380.7656,301.9844 380.6563,301.4688 Q380.6094,301.1094 380.4219,300.9219 Q380.0938,300.5469 379.4844,300.3281 Q378.875,300.1094 378.25,300.1094 Q377.4844,300.1094 376.8516,300.4375 Q376.2188,300.7656 375.7266,301.5156 Q375.2344,302.2656 375.2344,303.2969 L375.2344,304.3906 Q375.2344,305.625 376.125,306.4453 Q377.0156,307.2656 378.6094,307.2656 Q379.5469,307.2656 380.2031,307.0156 Q380.5938,306.8594 381.0156,306.4219 Q381.2813,306.1563 381.4297,306.0781 Q381.5781,306 381.7813,306 Q382.1094,306 382.3672,306.2578 Q382.625,306.5156 382.625,306.8594 Q382.625,307.2031 382.2813,307.6094 Q381.7813,308.1875 380.9844,308.5156 Q379.9063,308.9688 378.6094,308.9688 Q377.0938,308.9688 375.8906,308.3438 Q374.9063,307.8438 374.2188,306.7734 Q373.5313,305.7031 373.5313,304.4219 L373.5313,303.2656 Q373.5313,301.9375 374.1484,300.7891 Q374.7656,299.6406 375.8594,299.0234 Q376.9531,298.4063 378.1875,298.4063 Q378.9219,298.4063 379.5703,298.5703 Q380.2188,298.7344 380.7656,299.0938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="392" y="308.1289">Fraud Check</text><line style="stroke: #000000; stroke-width: 1.5;" x1="364" x2="464" y1="319.2188" y2="319.2188"/><line style="stroke: #000000; stroke-width: 1.5;" x1="364" x2="464" y1="327.2188" y2="327.2188"/><!--MD5=[9265b0e065bb75fa329b4e2d7c32a488]
+class shipping--><rect fill="#D3D3D3" filter="url(#f4nf2iifl3vq1)" height="48" id="shipping" style="stroke: #000000; stroke-width: 1.5;" width="131" x="500.5" y="287.2188"/><ellipse cx="515.5" cy="303.2188" fill="#ADD1B2" rx="11" ry="11" style="stroke: #000000; stroke-width: 1.0;"/><path d="M518.2656,299.0938 Q518.4219,298.875 518.6094,298.7656 Q518.7969,298.6563 519.0156,298.6563 Q519.3906,298.6563 519.625,298.9141 Q519.8594,299.1719 519.8594,299.7813 L519.8594,301.2344 Q519.8594,301.8438 519.625,302.1094 Q519.3906,302.375 519.0156,302.375 Q518.6719,302.375 518.4688,302.1719 Q518.2656,301.9844 518.1563,301.4688 Q518.1094,301.1094 517.9219,300.9219 Q517.5938,300.5469 516.9844,300.3281 Q516.375,300.1094 515.75,300.1094 Q514.9844,300.1094 514.3516,300.4375 Q513.7188,300.7656 513.2266,301.5156 Q512.7344,302.2656 512.7344,303.2969 L512.7344,304.3906 Q512.7344,305.625 513.625,306.4453 Q514.5156,307.2656 516.1094,307.2656 Q517.0469,307.2656 517.7031,307.0156 Q518.0938,306.8594 518.5156,306.4219 Q518.7813,306.1563 518.9297,306.0781 Q519.0781,306 519.2813,306 Q519.6094,306 519.8672,306.2578 Q520.125,306.5156 520.125,306.8594 Q520.125,307.2031 519.7813,307.6094 Q519.2813,308.1875 518.4844,308.5156 Q517.4063,308.9688 516.1094,308.9688 Q514.5938,308.9688 513.3906,308.3438 Q512.4063,307.8438 511.7188,306.7734 Q511.0313,305.7031 511.0313,304.4219 L511.0313,303.2656 Q511.0313,301.9375 511.6484,300.7891 Q512.2656,299.6406 513.3594,299.0234 Q514.4531,298.4063 515.6875,298.4063 Q516.4219,298.4063 517.0703,298.5703 Q517.7188,298.7344 518.2656,299.0938 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="529.5" y="308.1289">Shipping Tracking</text><line style="stroke: #000000; stroke-width: 1.5;" x1="501.5" x2="630.5" y1="319.2188" y2="319.2188"/><line style="stroke: #000000; stroke-width: 1.5;" x1="501.5" x2="630.5" y1="327.2188" y2="327.2188"/><!--MD5=[1354deb91bfed26f6b464b8920430b02]
+link customer to order--><path d="M288,124.6078 C288,140.8618 288,159.0088 288,173.6648 " fill="none" id="customer-order" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="288,178.8968,292,169.8968,288,173.8968,284,169.8968,288,178.8968" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="288,119.5298,284,128.5298,288,124.5298,292,128.5298,288,119.5298" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="271.8047" y="140.4598">[1]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28" x="256.5875" y="168.5562">[0..*]</text><!--MD5=[6c68cf56dd75b4d6b9b74054c4196954]
+reverse link order to orderitem--><path d="M243.962,223.9158 C201.865,242.7432 138.692,270.9978 96.21,289.9983 " fill="none" id="order&lt;-orderitem" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="256.037,218.5148,248.9267,217.3135,245.083,223.4148,252.1934,224.6161,256.037,218.5148" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="233.5144" y="217.4342">[1]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28" x="95.5866" y="278.3395">[1..*]</text><!--MD5=[f1d9f8ff0ce866dc4856c5f4c37eb16b]
+reverse link order to payment--><path d="M288,240.5571 C288,255.9001 288,273.3168 288,286.8972 " fill="none" id="order&lt;-payment" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="288,227.2188,284,233.2188,288,239.2188,292,233.2188,288,227.2188" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="271.1719" y="248.5567">[1]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="271.1719" y="276.5567">[1]</text><!--MD5=[48ac44c382e55a00e77858f1db33b313]
+reverse link order to fraud--><path d="M325.426,235.7041 C344.944,252.1238 368.406,271.8618 386.278,286.8972 " fill="none" id="order&lt;-fraud" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="315.34,227.2188,317.3562,234.1423,324.5226,234.944,322.5064,228.0205,315.34,227.2188" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="305.176" y="248.5567">[1]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="362.6926" y="276.5567">[1]</text><!--MD5=[16a14e9d4c44020fd6ddcc2a526bd023]
+reverse link order to discount--><path d="M253.047,236.159 C235.178,252.4873 213.824,272.0004 197.522,286.8972 " fill="none" id="order&lt;-discount" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="262.83,227.2188,255.7024,228.313,253.9711,235.3132,261.0987,234.2189,262.83,227.2188" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="239.8667" y="248.5567">[1]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="170.0867" y="276.5567">[0..1]</text><!--MD5=[1ffc969e8b3ef47c8b2095b8cf8ac886]
+reverse link order to shipping--><path d="M332.064,221.0198 C378.922,238.8868 453.345,267.2642 505.639,287.2033 " fill="none" id="order&lt;-shipping" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="319.619,216.2747,323.7994,222.1505,330.831,220.5515,326.6506,214.6758,319.619,216.2747" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="327.6873" y="214.8489">[1]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="15" x="477.703" y="278.6289">[1]</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="292" x="179" y="355.5996">Company Architecture Team - Fri May 22 16:27:41 EDT 2020</text><!--MD5=[b37d3a67751a0ce213d4c3f34d64c947]
+@startuml Conceptual Domain Model
+!include include.puml
+
+header Order Solution
+title Conceptual Domain Model
+
+class "Customer" as customer {
+  +contact_info
+  +shipping_info
+}
+class "Order" as order
+class "Order Item" as orderitem
+class "Discount" as discount
+class "Payment" as payment
+class "Fraud Check" as fraud
+class "Shipping Tracking" as shipping
+
+customer "[1]" <- -> "[0..*]" order
+order "[1]" *- - "[1..*]" orderitem
+order "[1]" *- - "[1]" payment
+order "[1]" *- - "[1]" fraud
+order "[1]" *- - "[0..1]" discount
+order "[1]" *- - "[1]" shipping
+@enduml
+
+@startuml Conceptual Domain Model
+footer Company Architecture Team - Fri May 22 16:27:41 EDT 2020
+
+
+scale max 2048 width
+
+skinparam actor {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam folder {
+  BorderColor Black
+  BackgroundColor<< Human >> LightGrey
+  BackgroundColor White
+}
+
+skinparam ArrowColor Black
+skinparam BackgroundColor White
+skinparam CloudBackgroundColor white
+skinparam DatabaseBackgroundColor White
+skinparam NodeBackgroundColor white
+
+skinparam class {
+    BackgroundColor LightGrey
+    BorderColor Black
+}
+
+skinparam note {
+  BackgroundColor #FFEFD7
+  BorderColor Black
+}
+
+skinparam boundary {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam participant {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam card {
+  BackgroundColor White
+  BorderColor Black
+}
+
+skinparam queue {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam state {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam storage {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam collections {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam entity {
+  BackgroundColor White
+  BorderColor Black
+  FontColor Black
+}
+
+skinparam SequenceBoxBorderColor Black
+
+skinparam EntityBackgroundColor White
+skinparam EntityBorderColor Black
+
+skinparam activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  DiamondBackgroundColor white
+  DiamondBorderColor black
+  EndColor black
+  StartColor black
+}
+
+skinparam sequence {
+    MessageAlignment left
+
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor White
+}
+
+skinparam usecase {
+	BackgroundColor White
+	BorderColor Black
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+}
+
+skinparam interface {
+    BackgroundColor White
+
+    BorderColor Black
+}
+
+skinparam component {
+    BackgroundColor White
+  
+    BorderColor Black
+}
+
+skinparam rectangle {
+    BackgroundColor White
+	roundCorner 25
+}
+
+header Order Solution
+title Conceptual Domain Model
+
+class "Customer" as customer {
+  +contact_info
+  +shipping_info
+}
+class "Order" as order
+class "Order Item" as orderitem
+class "Discount" as discount
+class "Payment" as payment
+class "Fraud Check" as fraud
+class "Shipping Tracking" as shipping
+
+customer "[1]" <- -> "[0..*]" order
+order "[1]" *- - "[1..*]" orderitem
+order "[1]" *- - "[1]" payment
+order "[1]" *- - "[1]" fraud
+order "[1]" *- - "[0..1]" discount
+order "[1]" *- - "[1]" shipping
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 05:35:57 EDT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
