@@ -54,7 +54,7 @@ place -.> shipping: << includes >>
 place <.- discount: << extends >>
 place -.> confirmation: << includes >>
 place -.> fulfill: << includes >>
-place <.- account: << extend >>
+place <.- account: << extends >>
 
 emp --> fulfill
 

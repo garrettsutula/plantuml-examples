@@ -9,6 +9,7 @@ This use case diagram depicts the use cases supporting an online store.
 ![use case diagram](out/diagram_examples/Use%20Case%20Diagram%20-%20Park%20Entry.svg)
 ## Activity
 This activity diagram is intended to represent how messages in an event-driven architecture are handled, the sequence diagram below it may provide additional context.
+
 ![activity diagram](out/diagram_examples/Message%20Processing%20Activity%20Diagram.svg)
 ![supporting sequence diagram for activity diagram](out/diagram_examples/New%20Resource%20Processor.svg)
 ## Deployment
