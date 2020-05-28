@@ -11,7 +11,11 @@ This use case diagram depicts the use cases supporting an online store.
 This activity diagram is intended to represent how messages in an event-driven architecture are handled, the sequence diagram below it may provide additional context.
 
 ![activity diagram](out/diagram_examples/Message%20Processing%20Activity%20Diagram.svg)
+
 ![supporting sequence diagram for activity diagram](out/diagram_examples/New%20Resource%20Processor.svg)
+## Component
+This component diagram depicts a client application integrating with a few microservices and a 3rd party system.
+![component diagram](out/diagram_examples/Component%20Diagram.svg)
 ## Deployment
 This deployment diagram depicts a stateless system that's deployed across multiple physical locations & datacenters with master-master replication of the underlying database.
 ![deployment diagram](out/diagram_examples/Deployment%20Diagram.svg)

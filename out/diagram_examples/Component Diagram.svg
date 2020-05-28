@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="745px" preserveAspectRatio="none" style="width:1183px;height:745px;" version="1.1" viewBox="0 0 1183 745" width="1183px" zoomAndPan="magnify"><defs><filter height="300%" id="f12hhz4dinznhd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter><filter height="1" id="b12hhz4dinznhd0" width="1" x="0" y="0"><feFlood flood-color="#F0E442" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter><filter height="1" id="b12hhz4dinznhd1" width="1" x="0" y="0"><feFlood flood-color="#56B4E9" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter><filter height="1" id="b12hhz4dinznhd2" width="1" x="0" y="0"><feFlood flood-color="#009E73" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter><filter height="1" id="b12hhz4dinznhd3" width="1" x="0" y="0"><feFlood flood-color="#CC79A7" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="143" x="1028" y="10.3809">Component Diagram Example</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="307" x="432" y="31.2637">Client Application Component Diagram</text><!--MD5=[b96bc1d3d386c6dae3bd429f510de499]
+cluster Client Device--><polygon fill="#56B4E9" filter="url(#f12hhz4dinznhd)" points="22,59.2188,122,59.2188,129,82.8281,264,82.8281,264,363.2188,22,363.2188,22,59.2188" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="129" y1="82.8281" y2="82.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="26" y="75.752">Client Device</text><!--MD5=[b908e51f38c97d6c933ad3182c694031]
+cluster ms1package--><polygon fill="#009E73" filter="url(#f12hhz4dinznhd)" points="288,212.7188,399,212.7188,406,236.3281,416,236.3281,416,602.2188,288,602.2188,288,212.7188" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="288" x2="406" y1="236.3281" y2="236.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="292" y="229.252">Microservice 1</text><!--MD5=[e2ecb4fee1a1bfabd2de06d2ba637d44]
+cluster ms2package--><polygon fill="#56B4E9" filter="url(#f12hhz4dinznhd)" points="440,212.7188,551,212.7188,558,236.3281,568,236.3281,568,602.2188,440,602.2188,440,212.7188" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="440" x2="558" y1="236.3281" y2="236.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="444" y="229.252">Microservice 2</text><!--MD5=[558d6fcbe4923758cb199871cf6c7e8f]
+cluster ms3package--><polygon fill="#56B4E9" filter="url(#f12hhz4dinznhd)" points="592,212.7188,703,212.7188,710,236.3281,720,236.3281,720,602.2188,592,602.2188,592,212.7188" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="592" x2="710" y1="236.3281" y2="236.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="596" y="229.252">Microservice 3</text><!--MD5=[1a45c278145f09a1c6dc351386517d20]
+cluster ms4package--><polygon fill="#009E73" filter="url(#f12hhz4dinznhd)" points="744,212.7188,855,212.7188,862,236.3281,949,236.3281,949,602.2188,744,602.2188,744,212.7188" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="744" x2="862" y1="236.3281" y2="236.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="748" y="229.252">Microservice 4</text><!--MD5=[4edbd8e7676afbae62fdb064c2378ae4]
+cluster 3rdpackage--><polygon fill="#CC79A7" filter="url(#f12hhz4dinznhd)" points="973,212.7188,1107,212.7188,1114,236.3281,1137,236.3281,1137,602.2188,973,602.2188,973,212.7188" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="973" x2="1114" y1="236.3281" y2="236.3281"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="128" x="977" y="229.252">3rd Party System 1</text><!--MD5=[4541fb81c80c07473fe4b07432ef0971]
+entity app--><rect fill="#F0E442" filter="url(#f12hhz4dinznhd)" height="55.2188" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="118.5" y="95.2188"/><rect fill="#F0E442" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="113.5" y="100.2188"/><rect fill="#F0E442" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="113.5" y="140.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="30" x="168" y="119.752">«UI»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="109" x="128.5" y="137.3613">Client Application</text><!--MD5=[18b72bf5d1838316b3d85261d2b42cce]
+entity folder--><polygon fill="#FEFECE" filter="url(#f12hhz4dinznhd)" points="38.5,210.2188,84.5,210.2188,91.5,231.2188,247.5,231.2188,247.5,346.875,38.5,346.875,38.5,210.2188" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="38.5" x2="91.5" y1="231.2188" y2="231.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="48.5" y="252.752">Local Filesystem</text><line style="stroke: #000000; stroke-width: 1.0;" x1="39.5" x2="246.5" y1="255.8281" y2="255.8281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="54.5" y="274.3613">Used to Cache:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="167" x="54.5" y="291.9707">- Application Configuration</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="54.5" y="309.5801">- Assets</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="54.5" y="327.1895">- Application Data</text><!--MD5=[1d44c82b53ccc18cbbba918e9fb51f68]
+entity ms1_corp--><ellipse cx="347" cy="278.7188" fill="#FEFECE" filter="url(#f12hhz4dinznhd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="316.5" y="310.252">corporate</text><!--MD5=[48d792d2c88628e71273bc6fadf6f6e1]
+entity ms1--><rect fill="#FEFECE" filter="url(#f12hhz4dinznhd)" height="55.2188" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="304" y="407.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="299" y="412.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="299" y="452.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="76" x="314" y="431.752">«SERVICE»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="336.5" y="449.3613">ms-1</text><!--MD5=[08fbe4c94c32b1f44a8e0f25ea60208d]
+entity ms1_db--><path d="M309.5,532.2188 C309.5,522.2188 352,522.2188 352,522.2188 C352,522.2188 394.5,522.2188 394.5,532.2188 L394.5,576.4375 C394.5,586.4375 352,586.4375 352,586.4375 C352,586.4375 309.5,586.4375 309.5,576.4375 L309.5,532.2188 " fill="#FEFECE" filter="url(#f12hhz4dinznhd)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M309.5,532.2188 C309.5,542.2188 352,542.2188 352,542.2188 C352,542.2188 394.5,542.2188 394.5,532.2188 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="319.5" y="560.752">«NOSQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="326" y="578.3613">ms-db-1</text><!--MD5=[e9054683de04642c58c1b80a2bb3b909]
+entity ms2_corp--><ellipse cx="499" cy="278.7188" fill="#FEFECE" filter="url(#f12hhz4dinznhd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="468.5" y="310.252">corporate</text><!--MD5=[22c30b190618f40160d9be74abdeee9c]
+entity ms2--><rect fill="#FEFECE" filter="url(#f12hhz4dinznhd)" height="55.2188" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="456" y="407.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="451" y="412.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="451" y="452.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="76" x="466" y="431.752">«SERVICE»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="488.5" y="449.3613">ms-2</text><!--MD5=[55fd76629e975ac0e97d3d3187ff9ca8]
+entity ms2_db--><path d="M461.5,532.2188 C461.5,522.2188 504,522.2188 504,522.2188 C504,522.2188 546.5,522.2188 546.5,532.2188 L546.5,576.4375 C546.5,586.4375 504,586.4375 504,586.4375 C504,586.4375 461.5,586.4375 461.5,576.4375 L461.5,532.2188 " fill="#FEFECE" filter="url(#f12hhz4dinznhd)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M461.5,532.2188 C461.5,542.2188 504,542.2188 504,542.2188 C504,542.2188 546.5,542.2188 546.5,532.2188 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="471.5" y="560.752">«NOSQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="478" y="578.3613">ms-db-2</text><!--MD5=[ff326e3baf688bffcad02bf753dcef8b]
+entity ms3_corp--><ellipse cx="651" cy="278.7188" fill="#FEFECE" filter="url(#f12hhz4dinznhd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="620.5" y="310.252">corporate</text><!--MD5=[58bc50b3fb645a6e25aa5aa7915c8b4e]
+entity ms3--><rect fill="#FEFECE" filter="url(#f12hhz4dinznhd)" height="55.2188" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="608" y="407.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="603" y="412.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="603" y="452.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="76" x="618" y="431.752">«SERVICE»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="640.5" y="449.3613">ms-3</text><!--MD5=[479a1f120071a8a252ed871450894859]
+entity ms3_db--><path d="M613.5,532.2188 C613.5,522.2188 656,522.2188 656,522.2188 C656,522.2188 698.5,522.2188 698.5,532.2188 L698.5,576.4375 C698.5,586.4375 656,586.4375 656,586.4375 C656,586.4375 613.5,586.4375 613.5,576.4375 L613.5,532.2188 " fill="#FEFECE" filter="url(#f12hhz4dinznhd)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M613.5,532.2188 C613.5,542.2188 656,542.2188 656,542.2188 C656,542.2188 698.5,542.2188 698.5,532.2188 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="623.5" y="560.752">«NOSQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="630" y="578.3613">ms-db-3</text><!--MD5=[71a66340140dcc82bf40569b2d108c6f]
+entity ms4_corp--><ellipse cx="895" cy="278.7188" fill="#FEFECE" filter="url(#f12hhz4dinznhd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="864.5" y="310.252">corporate</text><!--MD5=[bd21e65837e80c90dbe4ea2a9ceef451]
+entity ms4_internal--><ellipse cx="791" cy="278.7188" fill="#FEFECE" filter="url(#f12hhz4dinznhd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="767.5" y="310.252">internal</text><!--MD5=[a97fe309e1693d7cc0214c60d33a6a1a]
+entity ms4--><rect fill="#FEFECE" filter="url(#f12hhz4dinznhd)" height="55.2188" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="798" y="407.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="793" y="412.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="793" y="452.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="76" x="808" y="431.752">«SERVICE»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="830.5" y="449.3613">ms-4</text><!--MD5=[7e597c35e34c1253d9ff907992a63fd4]
+entity ms4_db--><path d="M803.5,532.2188 C803.5,522.2188 846,522.2188 846,522.2188 C846,522.2188 888.5,522.2188 888.5,532.2188 L888.5,576.4375 C888.5,586.4375 846,586.4375 846,586.4375 C846,586.4375 803.5,586.4375 803.5,576.4375 L803.5,532.2188 " fill="#FEFECE" filter="url(#f12hhz4dinznhd)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M803.5,532.2188 C803.5,542.2188 846,542.2188 846,542.2188 C846,542.2188 888.5,542.2188 888.5,532.2188 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="813.5" y="560.752">«NOSQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="820" y="578.3613">ms-db-4</text><!--MD5=[5550fd8653c231e8d73dcd835b135604]
+entity 3rd_internal--><ellipse cx="1028" cy="278.7188" fill="#FEFECE" filter="url(#f12hhz4dinznhd)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="1004.5" y="310.252">internal</text><!--MD5=[5b724e77467c1197f785ffa26fa1e7c4]
+entity idcenter--><rect fill="#FEFECE" filter="url(#f12hhz4dinznhd)" height="55.2188" style="stroke: #A80036; stroke-width: 1.5;" width="95" x="998.5" y="407.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="993.5" y="412.2188"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="993.5" y="452.4375"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="62" x="1015" y="431.752">«Service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="1008.5" y="449.3613">Vendor App</text><!--MD5=[18c6ee4a7930510e1b81c8c93e6aad43]
+entity 3rdDb--><path d="M989.5,532.2188 C989.5,522.2188 1055,522.2188 1055,522.2188 C1055,522.2188 1120.5,522.2188 1120.5,532.2188 L1120.5,576.4375 C1120.5,586.4375 1055,586.4375 1055,586.4375 C1055,586.4375 989.5,586.4375 989.5,576.4375 L989.5,532.2188 " fill="#FEFECE" filter="url(#f12hhz4dinznhd)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M989.5,532.2188 C989.5,542.2188 1055,542.2188 1055,542.2188 C1055,542.2188 1120.5,542.2188 1120.5,532.2188 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="44" x="1033" y="560.752">«SQL»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="999.5" y="578.3613">Vendor Database</text><!--MD5=[0267750dc5a807dfc5d9e1c856f945b0]
+link app to folder--><path d="M174.681,155.7478 C170.928,170.1938 166.332,187.8927 161.815,205.2797 " fill="none" id="app-folder" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="160.545,210.1717,166.6797,202.4668,161.8023,205.3324,158.9367,200.4551,160.545,210.1717" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="176.033,150.5438,169.8983,158.2487,174.7757,155.3831,177.6413,160.2604,176.033,150.5438" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c833769cde4aca067e2f278ecd11ef80]
+link ms1_corp to ms1--><path d="M347.269,287.9988 C347.987,310.1148 349.974,371.3088 351.132,406.9708 " fill="none" id="ms1_corp-ms1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8799b931d022c9117c859def77029ddf]
+link ms1 to ms1_db--><path d="M352,462.3818 C352,480.1218 352,503.4918 352,522.0852 " fill="none" id="ms1-ms1_db" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bd581b7892dbec09b351a5c0de82df66]
+link ms2_corp to ms2--><path d="M499.269,287.9988 C499.987,310.1148 501.974,371.3088 503.132,406.9708 " fill="none" id="ms2_corp-ms2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1ddbe3a7c11148c0a98de9f89157c5c1]
+link ms2 to ms2_db--><path d="M504,462.3818 C504,480.1218 504,503.4918 504,522.0852 " fill="none" id="ms2-ms2_db" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[03c3a7c8b4015caf8575f5d58dedc28b]
+link ms3_corp to ms3--><path d="M651.269,287.9988 C651.987,310.1148 653.974,371.3088 655.132,406.9708 " fill="none" id="ms3_corp-ms3" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[96d448f0753de48ee38bf1cbab51a705]
+link ms3 to ms3_db--><path d="M656,462.3818 C656,480.1218 656,503.4918 656,522.0852 " fill="none" id="ms3-ms3_db" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d72658ac59c7a9f7af7f2de789891650]
+link ms4_corp to ms4--><path d="M892.366,287.9988 C885.329,310.1148 865.858,371.3088 854.511,406.9708 " fill="none" id="ms4_corp-ms4" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[291273d4507939ebf6b120957ec1f28b]
+link ms4_internal to ms4--><path d="M793.957,287.9988 C801.856,310.1148 823.711,371.3088 836.447,406.9708 " fill="none" id="ms4_internal-ms4" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d52b010cca97c42901b98fb7e967e9fb]
+link ms4 to ms4_db--><path d="M846,462.3818 C846,480.1218 846,503.4918 846,522.0852 " fill="none" id="ms4-ms4_db" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[82c30d1853e52ec42ac45de02bd3e8e3]
+link 3rd_internal to idcenter--><path d="M1028.97,287.9988 C1031.55,310.1148 1038.71,371.3088 1042.87,406.9708 " fill="none" id="3rd_internal-idcenter" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f8d0748b270e47b2923dccf2765d98f4]
+link idcenter to 3rdDb--><path d="M1048.04,462.3818 C1049.4,480.1218 1051.19,503.4918 1052.62,522.0852 " fill="none" id="idcenter-3rdDb" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[418fece6750e5113008dbea6f3903c52]
+link app to ms1_corp--><path d="M211.567,150.5438 C246.147,183.0148 303.182,236.5718 330.891,262.5918 " fill="none" id="app-&gt;ms1_corp" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M341.7354,261.1735 A9,9 0 0 0 330.1567 273.5037" fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><!--MD5=[ef8310abc32a3617708d0470083b9d67]
+link app to ms2_corp--><path d="M247.686,138.9608 C296.13,152.0558 362.913,173.7588 416,204.7188 C442.821,220.3608 468.893,245.3908 484.45,261.6928 " fill="none" id="app-&gt;ms2_corp" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M495.6573,261.3058 A9,9 0 0 0 483.292 272.8471" fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><!--MD5=[383778a7c4d636a39e475702052c46a3]
+link app to ms3_corp--><path d="M247.608,127.2778 C326.872,133.8408 463.57,152.4088 568,204.7188 C596.053,218.7708 622.129,244.6508 637.31,261.5178 " fill="none" id="app-&gt;ms3_corp" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M648.5477,261.5222 A9,9 0 0 0 635.8155 272.6572" fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><!--MD5=[6cdcdcd3846c2a60ca31279e32977f3a]
+link app to ms4_corp--><path d="M247.507,125.4167 C392.446,130.2208 739.02,147.5218 839,204.7188 C861.485,217.5818 877.955,243.4428 887.008,260.6718 " fill="none" id="app-&gt;ms4_corp" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M897.6749,263.1356 A9,9 0 0 0 882.5264 270.6603" fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><!--MD5=[77f9d0f5a68495f18ab73bbfc2b79771]
+link app to ms4_internal--><path d="M247.921,128.3178 C372.207,137.9628 638.649,162.9337 720,204.7188 C745.742,217.9407 767.592,244.0997 780.003,261.2458 " fill="none" id="app-&gt;ms4_internal" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M791.0737,262.3461 A9,9 0 0 0 777.1925 272.011" fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><!--MD5=[11c196501d85d6a2e3119b3f387c5551]
+link app to 3rd_internal--><path d="M247.521,125.3517 C408.568,130.2487 824.236,148.1547 949,204.7188 C977.098,217.4577 1001.83,244.1558 1015.84,261.4908 " fill="none" id="app-&gt;3rd_internal" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1026.925,261.9509 A9,9 0 0 0 1013.5884 272.3545" fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><rect fill="#DDDDDD" height="98.0469" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.0;" width="107" x="531.5" y="636.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="537.5" y="655.752">Color Legend</text><text fill="#000000" filter="url(#b12hhz4dinznhd0)" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="537.5" y="673.3613">Modify</text><text fill="#000000" filter="url(#b12hhz4dinznhd1)" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="537.5" y="690.9707">Existing</text><text fill="#000000" filter="url(#b12hhz4dinznhd2)" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="26" x="537.5" y="708.5801">New</text><text fill="#000000" filter="url(#b12hhz4dinznhd3)" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="537.5" y="726.1895">3rd Party</text><!--MD5=[6839dc70f03b5b9875d5461152a6a30a]
+@startuml Component Diagram
+header Component Diagram Example
+title Client Application Component Diagram
+
+legend
+**Color Legend**
+<back:F0E442>Modify</back>
+<back:56B4E9>Existing</back>
+<back:009E73>New</back>
+<back:CC79A7>3rd Party</back>
+endlegend
+
+folder "Client Device" #56B4E9 {
+  component "Client Application" as app <<UI>> #F0E442
+  folder folder [
+    **Local Filesystem**
+    - - -
+    Used to Cache:
+    - Application Configuration
+    - Assets
+    - Application Data
+  ]
+  app <- -> folder
+}
+
+folder "Microservice 1" as ms1package #009E73 {
+    interface corporate as ms1_corp
+    component "ms-1" as ms1 <<SERVICE>>
+    database "ms-db-1" as ms1_db <<NOSQL>>
+
+    ms1_corp - - ms1
+    ms1 - - ms1_db
+}
+
+folder "Microservice 2" as ms2package #56B4E9 {
+    interface corporate as ms2_corp
+    component "ms-2" as ms2 <<SERVICE>>
+    database "ms-db-2" as ms2_db <<NOSQL>>
+
+    ms2_corp - - ms2
+    ms2 - - ms2_db
+}
+
+folder "Microservice 3" as ms3package #56B4E9 {
+    interface corporate as ms3_corp
+    component "ms-3" as ms3 <<SERVICE>>
+    database "ms-db-3" as ms3_db <<NOSQL>>
+
+    ms3_corp - - ms3
+    ms3 - - ms3_db
+}
+
+folder "Microservice 4" as ms4package #009E73 {
+    interface corporate as ms4_corp
+    interface internal as ms4_internal
+    component "ms-4" as ms4 <<SERVICE>>
+    database "ms-db-4" as ms4_db <<NOSQL>> 
+
+    ms4_corp - - ms4
+    ms4_internal - - ms4
+
+    ms4 - - ms4_db
+}
+
+folder "3rd Party System 1" as 3rdpackage #CC79A7 {
+  interface internal as 3rd_internal
+  component "Vendor App" as idcenter <<Service>>
+  database "Vendor Database" as 3rdDb <<SQL>>
+
+  3rd_internal - - idcenter
+  idcenter - - 3rdDb
+}
+
+app - -( ms1_corp
+app - -( ms2_corp
+app - -( ms3_corp
+app - -( ms4_corp
+app - -( ms4_internal
+app - -( 3rd_internal
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 05:35:57 EDT 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

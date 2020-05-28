@@ -60,6 +60,88 @@ emp --> fulfill
 
 @enduml
 --------------------------------------------------------------------------
+@startuml Component Diagram
+header Component Diagram Example
+title Client Application Component Diagram
+
+legend
+**Color Legend**
+<back:F0E442>Modify</back>
+<back:56B4E9>Existing</back>
+<back:009E73>New</back>
+<back:CC79A7>3rd Party</back>
+endlegend
+
+folder "Client Device" #56B4E9 {
+  component "Client Application" as app <<UI>> #F0E442
+  folder folder [
+    **Local Filesystem**
+    ---
+    Used to Cache:
+    - Application Configuration
+    - Assets
+    - Application Data
+  ]
+  app <--> folder
+}
+
+folder "Microservice 1" as ms1package #009E73 {
+    interface corporate as ms1_corp
+    component "ms-1" as ms1 <<SERVICE>>
+    database "ms-db-1" as ms1_db <<NOSQL>>
+
+    ms1_corp -- ms1
+    ms1 -- ms1_db
+}
+
+folder "Microservice 2" as ms2package #56B4E9 {
+    interface corporate as ms2_corp
+    component "ms-2" as ms2 <<SERVICE>>
+    database "ms-db-2" as ms2_db <<NOSQL>>
+
+    ms2_corp -- ms2
+    ms2 -- ms2_db
+}
+
+folder "Microservice 3" as ms3package #56B4E9 {
+    interface corporate as ms3_corp
+    component "ms-3" as ms3 <<SERVICE>>
+    database "ms-db-3" as ms3_db <<NOSQL>>
+
+    ms3_corp -- ms3
+    ms3 -- ms3_db
+}
+
+folder "Microservice 4" as ms4package #009E73 {
+    interface corporate as ms4_corp
+    interface internal as ms4_internal
+    component "ms-4" as ms4 <<SERVICE>>
+    database "ms-db-4" as ms4_db <<NOSQL>> 
+
+    ms4_corp -- ms4
+    ms4_internal -- ms4
+
+    ms4 -- ms4_db
+}
+
+folder "3rd Party System 1" as 3rdpackage #CC79A7 {
+  interface internal as 3rd_internal
+  component "Vendor App" as idcenter <<Service>>
+  database "Vendor Database" as 3rdDb <<SQL>>
+
+  3rd_internal -- idcenter
+  idcenter -- 3rdDb
+}
+
+app --( ms1_corp
+app --( ms2_corp
+app --( ms3_corp
+app --( ms4_corp
+app --( ms4_internal
+app --( 3rd_internal
+
+@enduml
+
 @startuml Deployment Diagram
 !include include.puml
 
